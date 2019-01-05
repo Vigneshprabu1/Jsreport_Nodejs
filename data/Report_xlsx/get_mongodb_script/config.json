@@ -1,0 +1,13 @@
+{
+    "folder": {
+        "shortid": "QIb2Z4V"
+    },
+    "shortid": "HymuN3nWE",
+    "name": "get_mongodb_script",
+    "creationDate": "2019-01-04T10:24:56.394Z",
+    "modificationDate": {
+        "$$date": 1546669798654
+    },
+    "_id": "0GLvqKwTg9AhnCtb",
+    "$entitySet": "scripts"
+}

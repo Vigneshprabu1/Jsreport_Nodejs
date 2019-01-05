@@ -1,0 +1,25 @@
+{
+    "folder": {
+        "shortid": "3apgO6v"
+    },
+    "shortid": "rJXhjs3bN",
+    "name": "Product_list",
+    "recipe": "chrome-pdf",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true
+    },
+    "modificationDate": {
+        "$$date": 1546671822944
+    },
+    "_id": "06JN159dOknSUiNI",
+    "$entitySet": "templates",
+    "scripts": [
+        {
+            "shortid": "SJ4Xnjhb4"
+        }
+    ],
+    "htmlToXlsx": {
+        "htmlEngine": "chrome"
+    }
+}

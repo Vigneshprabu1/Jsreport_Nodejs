@@ -1,0 +1,1362 @@
+2019-01-04T09:14:19.432Z - info: Initializing jsreport@2.3.0 in development mode using configuration file: jsreport.config.json
+2019-01-04T09:14:19.434Z - info: Searching for available extensions in D:\VS_WS\Node_WS\Foundry\
+2019-01-04T09:14:19.480Z - info: Extensions location cache doesn't contain entry yet, crawling
+2019-01-04T09:14:23.803Z - info: Found 31 extensions
+2019-01-04T09:14:23.850Z - debug: Writing extension locations cache to C:\Users\MR\AppData\Local\Temp\jsreport\core\locations.json
+2019-01-04T09:14:23.852Z - debug: Discovered 31 extensions
+2019-01-04T09:14:23.918Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-01-04T09:14:23.939Z - debug: Extension authentication is disabled, skipping
+2019-01-04T09:14:23.939Z - info: Using extension cli
+2019-01-04T09:14:23.958Z - info: Using extension debug
+2019-01-04T09:14:23.976Z - info: Using extension express
+2019-01-04T09:14:24.529Z - info: Using extension freeze
+2019-01-04T09:14:24.545Z - info: Using extension handlebars
+2019-01-04T09:14:24.561Z - info: Using extension import-export
+2019-01-04T09:14:25.369Z - info: Using extension jsrender
+2019-01-04T09:14:25.372Z - info: Using extension tags
+2019-01-04T09:14:25.381Z - info: Using extension templates
+2019-01-04T09:14:25.402Z - info: Using extension authorization
+2019-01-04T09:14:25.450Z - debug: Extension authorization was disabled
+2019-01-04T09:14:25.451Z - info: Using extension base
+2019-01-04T09:14:25.461Z - info: Using extension browser-client
+2019-01-04T09:14:25.466Z - info: Using extension child-templates
+2019-01-04T09:14:25.488Z - info: Using extension chrome-pdf
+2019-01-04T09:14:26.011Z - debug: Chrome strategy is dedicated-process
+2019-01-04T09:14:26.015Z - info: Using extension data
+2019-01-04T09:14:26.042Z - info: Using extension fs-store
+2019-01-04T09:14:27.527Z - info: Using extension html-to-xlsx
+2019-01-04T09:14:28.200Z - info: html-to-xlsx detected chrome as available html engine
+2019-01-04T09:14:28.201Z - info: Using extension licensing
+2019-01-04T09:14:28.232Z - info: Using extension pdf-utils
+2019-01-04T09:14:28.266Z - info: Using extension reports
+2019-01-04T09:14:28.309Z - info: Using extension studio
+2019-01-04T09:14:28.373Z - info: Using extension text
+2019-01-04T09:14:28.385Z - info: Using extension version-control
+2019-01-04T09:14:29.124Z - info: Using extension assets
+2019-01-04T09:14:29.192Z - info: Using extension scheduling
+2019-01-04T09:14:29.446Z - info: Using extension scripts
+2019-01-04T09:14:29.451Z - info: Using extension xlsx
+2019-01-04T09:14:29.711Z - info: Using extension public-templates
+2019-01-04T09:14:29.719Z - debug: Extension public-templates was disabled
+2019-01-04T09:14:29.719Z - info: Using extension resources
+2019-01-04T09:14:29.725Z - info: Using extension sample-template
+2019-01-04T09:14:29.764Z - info: fs store is persisting using fs
+2019-01-04T09:14:29.766Z - info: fs store is synchronizing using fs
+2019-01-04T09:14:29.782Z - info: fs store is loading data
+2019-01-04T09:14:29.804Z - debug: fs store sync is configured to use polling for files watcher
+2019-01-04T09:14:29.932Z - info: fs store is initialized successfully
+2019-01-04T09:14:30.020Z - info: Creating default express app.
+2019-01-04T09:14:30.272Z - info: jsreport server successfully started on http port: 5400
+2019-01-04T09:14:30.275Z - info: fs store emits sockets to synchronize underlying changes with studio
+2019-01-04T09:14:30.352Z - info: Verifying license key free
+2019-01-04T09:14:30.354Z - info: Using free license
+2019-01-04T09:14:30.362Z - debug: Inserting samples
+2019-01-04T09:14:30.420Z - debug: Creating folder "samples" for sample entities
+2019-01-04T09:14:30.496Z - debug: Inserting sample entity Invoice (entitySet: folders)
+2019-01-04T09:14:30.522Z - debug: Inserting sample entity Orders (entitySet: folders)
+2019-01-04T09:14:30.547Z - debug: Inserting sample entity Population (entitySet: folders)
+2019-01-04T09:14:30.569Z - debug: Inserting sample entity shared (entitySet: folders)
+2019-01-04T09:14:30.600Z - debug: Inserting sample entity invoice-data (entitySet: data)
+2019-01-04T09:14:30.630Z - debug: Inserting sample entity population-data (entitySet: data)
+2019-01-04T09:14:30.649Z - debug: Inserting sample entity orders-header (entitySet: templates)
+2019-01-04T09:14:30.671Z - debug: Inserting sample entity orders-main (entitySet: templates)
+2019-01-04T09:14:30.693Z - debug: Inserting sample entity invoice-main (entitySet: templates)
+2019-01-04T09:14:30.735Z - debug: Inserting sample entity population-main (entitySet: templates)
+2019-01-04T09:14:30.751Z - debug: Inserting sample entity invoice-styles.css (entitySet: assets)
+2019-01-04T09:14:30.771Z - debug: Inserting sample entity invoice-logo.png (entitySet: assets)
+2019-01-04T09:14:30.794Z - debug: Inserting sample entity global helpers.js (entitySet: assets)
+2019-01-04T09:14:30.835Z - debug: Inserting sample entity orders-script (entitySet: scripts)
+2019-01-04T09:14:30.852Z - debug: Inserting sample entity population-xlsx (entitySet: xlsxTemplates)
+2019-01-04T09:14:31.008Z - info: reporter initialized
+2019-01-04T09:14:34.171Z - debug: OData query on templates
+2019-01-04T09:14:34.179Z - debug: OData query on folders
+2019-01-04T09:14:34.183Z - debug: OData query on tags
+2019-01-04T09:14:34.185Z - debug: OData query on data
+2019-01-04T09:14:34.237Z - debug: OData query on assets
+2019-01-04T09:14:34.248Z - debug: OData query on scripts
+2019-01-04T09:14:34.255Z - debug: OData query on xlsxTemplates
+2019-01-04T09:14:34.257Z - debug: OData query on schedules
+2019-01-04T09:14:34.290Z - debug: OData query on settings
+2019-01-04T09:14:34.581Z - debug: OData query on templates
+2019-01-04T09:14:34.638Z - debug: OData query on settings
+2019-01-04T09:31:18.988Z - info: Initializing jsreport@2.3.0 in development mode using configuration file: jsreport.config.json
+2019-01-04T09:31:18.990Z - info: Searching for available extensions in D:\VS_WS\Node_WS\Foundry\
+2019-01-04T09:31:19.036Z - info: Extensions location cache C:\Users\MR\AppData\Local\Temp\jsreport\core\locations.json contains older information, crawling
+2019-01-04T09:31:24.306Z - info: Found 31 extensions
+2019-01-04T09:31:24.360Z - debug: Writing extension locations cache to C:\Users\MR\AppData\Local\Temp\jsreport\core\locations.json
+2019-01-04T09:31:24.362Z - debug: Discovered 31 extensions
+2019-01-04T09:31:24.435Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-01-04T09:31:24.451Z - debug: Extension authentication is disabled, skipping
+2019-01-04T09:31:24.452Z - info: Using extension cli
+2019-01-04T09:31:24.457Z - info: Using extension debug
+2019-01-04T09:31:24.462Z - info: Using extension express
+2019-01-04T09:31:24.955Z - info: Using extension freeze
+2019-01-04T09:31:24.965Z - info: Using extension handlebars
+2019-01-04T09:31:24.968Z - info: Using extension import-export
+2019-01-04T09:31:25.762Z - info: Using extension jsrender
+2019-01-04T09:31:25.764Z - info: Using extension tags
+2019-01-04T09:31:25.778Z - info: Using extension templates
+2019-01-04T09:31:25.791Z - info: Using extension authorization
+2019-01-04T09:31:25.838Z - debug: Extension authorization was disabled
+2019-01-04T09:31:25.839Z - info: Using extension base
+2019-01-04T09:31:25.847Z - info: Using extension browser-client
+2019-01-04T09:31:25.852Z - info: Using extension child-templates
+2019-01-04T09:31:25.876Z - info: Using extension chrome-pdf
+2019-01-04T09:31:26.351Z - debug: Chrome strategy is dedicated-process
+2019-01-04T09:31:26.352Z - info: Using extension data
+2019-01-04T09:31:26.364Z - info: Using extension fs-store
+2019-01-04T09:31:27.024Z - info: Using extension html-to-xlsx
+2019-01-04T09:31:27.477Z - info: html-to-xlsx detected chrome as available html engine
+2019-01-04T09:31:27.477Z - info: Using extension licensing
+2019-01-04T09:31:27.495Z - info: Using extension pdf-utils
+2019-01-04T09:31:27.505Z - info: Using extension reports
+2019-01-04T09:31:27.527Z - info: Using extension studio
+2019-01-04T09:31:27.583Z - info: Using extension text
+2019-01-04T09:31:27.594Z - info: Using extension version-control
+2019-01-04T09:31:28.177Z - info: Using extension assets
+2019-01-04T09:31:28.263Z - info: Using extension scheduling
+2019-01-04T09:31:28.588Z - info: Using extension scripts
+2019-01-04T09:31:28.604Z - info: Using extension xlsx
+2019-01-04T09:31:28.908Z - info: Using extension public-templates
+2019-01-04T09:31:28.920Z - debug: Extension public-templates was disabled
+2019-01-04T09:31:28.920Z - info: Using extension resources
+2019-01-04T09:31:28.925Z - info: Using extension sample-template
+2019-01-04T09:31:28.938Z - info: fs store is persisting using fs
+2019-01-04T09:31:28.939Z - info: fs store is synchronizing using fs
+2019-01-04T09:31:28.945Z - info: fs store is loading data
+2019-01-04T09:31:29.027Z - debug: fs store sync is configured to use polling for files watcher
+2019-01-04T09:31:29.104Z - info: fs store is initialized successfully
+2019-01-04T09:31:29.143Z - info: Creating default express app.
+2019-01-04T09:31:29.389Z - info: jsreport server successfully started on http port: 5400
+2019-01-04T09:31:29.392Z - info: fs store emits sockets to synchronize underlying changes with studio
+2019-01-04T09:31:29.490Z - info: Verifying license key free
+2019-01-04T09:31:29.493Z - info: Using free license
+2019-01-04T09:31:29.498Z - info: reporter initialized
+2019-01-04T09:42:44.657Z - info: Initializing jsreport@2.3.0 in development mode using configuration file: jsreport.config.json
+2019-01-04T09:42:44.659Z - info: Searching for available extensions in D:\VS_WS\Node_WS\Foundry\
+2019-01-04T09:42:44.703Z - info: Extensions location cache contains up to date information, skipping crawling in D:\VS_WS\Node_WS\Foundry\
+2019-01-04T09:42:44.724Z - info: Found 31 extensions
+2019-01-04T09:42:44.740Z - debug: Writing extension locations cache to C:\Users\MR\AppData\Local\Temp\jsreport\core\locations.json
+2019-01-04T09:42:44.742Z - debug: Discovered 31 extensions
+2019-01-04T09:42:44.799Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-01-04T09:42:44.809Z - debug: Extension authentication is disabled, skipping
+2019-01-04T09:42:44.810Z - info: Using extension cli
+2019-01-04T09:42:44.815Z - info: Using extension debug
+2019-01-04T09:42:44.818Z - info: Using extension express
+2019-01-04T09:42:45.005Z - info: Using extension freeze
+2019-01-04T09:42:45.008Z - info: Using extension handlebars
+2019-01-04T09:42:45.011Z - info: Using extension import-export
+2019-01-04T09:42:45.154Z - info: Using extension jsrender
+2019-01-04T09:42:45.155Z - info: Using extension tags
+2019-01-04T09:42:45.158Z - info: Using extension templates
+2019-01-04T09:42:45.161Z - info: Using extension authorization
+2019-01-04T09:42:45.165Z - debug: Extension authorization was disabled
+2019-01-04T09:42:45.165Z - info: Using extension base
+2019-01-04T09:42:45.167Z - info: Using extension browser-client
+2019-01-04T09:42:45.170Z - info: Using extension child-templates
+2019-01-04T09:42:45.176Z - info: Using extension chrome-pdf
+2019-01-04T09:42:45.279Z - debug: Chrome strategy is dedicated-process
+2019-01-04T09:42:45.279Z - info: Using extension data
+2019-01-04T09:42:45.281Z - info: Using extension fs-store
+2019-01-04T09:42:45.527Z - info: Using extension html-to-xlsx
+2019-01-04T09:42:45.625Z - info: html-to-xlsx detected chrome as available html engine
+2019-01-04T09:42:45.625Z - info: Using extension licensing
+2019-01-04T09:42:45.629Z - info: Using extension pdf-utils
+2019-01-04T09:42:45.631Z - info: Using extension reports
+2019-01-04T09:42:45.635Z - info: Using extension studio
+2019-01-04T09:42:45.656Z - info: Using extension text
+2019-01-04T09:42:45.657Z - info: Using extension version-control
+2019-01-04T09:42:45.756Z - info: Using extension assets
+2019-01-04T09:42:45.770Z - info: Using extension scheduling
+2019-01-04T09:42:45.848Z - info: Using extension scripts
+2019-01-04T09:42:45.855Z - info: Using extension xlsx
+2019-01-04T09:42:45.923Z - info: Using extension public-templates
+2019-01-04T09:42:45.925Z - debug: Extension public-templates was disabled
+2019-01-04T09:42:45.925Z - info: Using extension resources
+2019-01-04T09:42:45.928Z - info: Using extension sample-template
+2019-01-04T09:42:45.937Z - info: fs store is persisting using fs
+2019-01-04T09:42:45.939Z - info: fs store is synchronizing using fs
+2019-01-04T09:42:45.943Z - info: fs store is loading data
+2019-01-04T09:42:45.981Z - debug: fs store sync is configured to use polling for files watcher
+2019-01-04T09:42:46.084Z - info: fs store is initialized successfully
+2019-01-04T09:42:46.127Z - info: Creating default express app.
+2019-01-04T09:42:46.152Z - info: jsreport server successfully started on http port: 5400
+2019-01-04T09:42:46.155Z - info: fs store emits sockets to synchronize underlying changes with studio
+2019-01-04T09:42:46.177Z - info: Verifying license key free
+2019-01-04T09:42:46.179Z - info: Using free license
+2019-01-04T09:42:46.191Z - info: reporter initialized
+2019-01-04T09:44:20.615Z - debug: fs store sync is triggering reload, because D:\VS_WS\Node_WS\Foundry\data\samples\MongoDb was changed by other process
+2019-01-04T09:44:20.617Z - info: fs store is loading data
+2019-01-04T09:44:20.622Z - debug: fs store sync is triggering reload, because D:\VS_WS\Node_WS\Foundry\data\samples\report was changed by other process
+2019-01-04T09:44:20.644Z - info: fs store is loading data
+2019-01-04T09:44:20.646Z - error: Error when performing remote sync Error: Error when trying to parse file at "samples\MongoDb\Product_list\config.json", check that file constains valid JSON. Unexpected end of JSON input
+    at parseFiles (D:\VS_WS\Node_WS\Foundry\node_modules\jsreport-fs-store\lib\persistence.js:74:18)
+2019-01-04T09:44:20.691Z - debug: Sending external-modification socket to the studio
+2019-01-04T09:45:16.412Z - debug: OData query on templates
+2019-01-04T09:45:16.429Z - debug: OData query on folders
+2019-01-04T09:45:16.432Z - debug: OData query on tags
+2019-01-04T09:45:16.435Z - debug: OData query on data
+2019-01-04T09:45:16.438Z - debug: OData query on assets
+2019-01-04T09:45:16.440Z - debug: OData query on scripts
+2019-01-04T09:45:16.472Z - debug: OData query on xlsxTemplates
+2019-01-04T09:45:16.482Z - debug: OData query on schedules
+2019-01-04T09:45:16.963Z - debug: OData query on settings
+2019-01-04T09:45:17.212Z - debug: OData query on templates
+2019-01-04T09:45:17.285Z - debug: OData query on settings
+2019-01-04T09:45:35.387Z - debug: OData query on templates
+2019-01-04T09:45:39.809Z - debug: OData query on templates
+2019-01-04T09:45:39.844Z - debug: OData query on settings
+2019-01-04T09:45:49.180Z - debug: OData query on templates
+2019-01-04T09:45:49.182Z - debug: OData query on folders
+2019-01-04T09:45:49.188Z - debug: OData query on tags
+2019-01-04T09:45:49.190Z - debug: OData query on data
+2019-01-04T09:45:49.192Z - debug: OData query on assets
+2019-01-04T09:45:49.195Z - debug: OData query on scripts
+2019-01-04T09:45:49.203Z - debug: OData query on xlsxTemplates
+2019-01-04T09:45:49.209Z - debug: OData query on schedules
+2019-01-04T09:45:49.229Z - debug: OData query on settings
+2019-01-04T09:45:49.443Z - debug: OData query on templates
+2019-01-04T09:45:49.462Z - debug: OData query on settings
+2019-01-04T09:45:52.292Z - debug: OData query on templates
+2019-01-04T09:46:01.272Z - debug: OData query on templates
+2019-01-04T09:46:01.312Z - debug: OData query on settings
+2019-01-04T09:46:21.240Z - debug: OData remove from templates
+2019-01-04T09:46:21.293Z - error: Error when processing OData DELETE: /odata/templates(IR6Cn7YvwzDx8lww) Error: Can not find parent folder for entity "Product_list" (entitySet: templates)
+    at getDirectoryPath (D:\VS_WS\Node_WS\Foundry\node_modules\jsreport-fs-store\lib\persistence.js:18:13)
+    at remove (D:\VS_WS\Node_WS\Foundry\node_modules\jsreport-fs-store\lib\persistence.js:223:40)
+    at lock (D:\VS_WS\Node_WS\Foundry\node_modules\jsreport-fs-store\lib\persistence.js:296:46)
+    at lock (D:\VS_WS\Node_WS\Foundry\node_modules\jsreport-fs-store\lib\persistence.js:287:18)
+2019-01-04T09:46:34.586Z - debug: fs store sync is triggering reload, because D:\VS_WS\Node_WS\Foundry\data\samples\MongoDb\get_productlist_script\content.js was changed by other process
+2019-01-04T09:46:34.586Z - info: fs store is loading data
+2019-01-04T09:46:34.588Z - debug: fs store sync is triggering reload, because D:\VS_WS\Node_WS\Foundry\data\samples\MongoDb\Product_list\helpers.js was changed by other process
+2019-01-04T09:46:34.589Z - debug: fs store sync is triggering reload, because D:\VS_WS\Node_WS\Foundry\data\samples\MongoDb\demo\config.json was changed by other process
+2019-01-04T09:46:34.590Z - debug: fs store sync is triggering reload, because D:\VS_WS\Node_WS\Foundry\data\samples\MongoDb\Product_list\config.json was changed by other process
+2019-01-04T09:46:34.591Z - debug: fs store sync is triggering reload, because D:\VS_WS\Node_WS\Foundry\data\samples\MongoDb\demo\content.handlebars was changed by other process
+2019-01-04T09:46:34.591Z - debug: fs store sync is triggering reload, because D:\VS_WS\Node_WS\Foundry\data\samples\MongoDb\config.json was changed by other process
+2019-01-04T09:46:34.592Z - debug: fs store sync is triggering reload, because D:\VS_WS\Node_WS\Foundry\data\samples\MongoDb\get_productlist_script\config.json was changed by other process
+2019-01-04T09:46:34.592Z - debug: fs store sync is triggering reload, because D:\VS_WS\Node_WS\Foundry\data\samples\MongoDb\Product_list\content.handlebars was changed by other process
+2019-01-04T09:46:34.593Z - debug: fs store sync is triggering reload, because D:\VS_WS\Node_WS\Foundry\data\samples\MongoDb\demo was changed by other process
+2019-01-04T09:46:34.594Z - debug: fs store sync is triggering reload, because D:\VS_WS\Node_WS\Foundry\data\samples\MongoDb\get_productlist_script was changed by other process
+2019-01-04T09:46:34.594Z - debug: fs store sync is triggering reload, because D:\VS_WS\Node_WS\Foundry\data\samples\MongoDb\Product_list was changed by other process
+2019-01-04T09:46:34.603Z - info: fs store is loading data
+2019-01-04T09:46:34.604Z - info: fs store is loading data
+2019-01-04T09:46:34.605Z - info: fs store is loading data
+2019-01-04T09:46:34.605Z - info: fs store is loading data
+2019-01-04T09:46:34.605Z - info: fs store is loading data
+2019-01-04T09:46:34.606Z - info: fs store is loading data
+2019-01-04T09:46:34.606Z - info: fs store is loading data
+2019-01-04T09:46:34.606Z - info: fs store is loading data
+2019-01-04T09:46:34.607Z - info: fs store is loading data
+2019-01-04T09:46:34.607Z - info: fs store is loading data
+2019-01-04T09:46:34.610Z - error: Error when performing remote sync Error: EPERM: operation not permitted, stat 'D:\VS_WS\Node_WS\Foundry\data\samples\MongoDb\demo'
+2019-01-04T09:46:34.626Z - error: Error when performing remote sync Error: EPERM: operation not permitted, stat 'D:\VS_WS\Node_WS\Foundry\data\samples\MongoDb\demo'
+2019-01-04T09:46:34.641Z - error: Error when performing remote sync Error: EPERM: operation not permitted, stat 'D:\VS_WS\Node_WS\Foundry\data\samples\MongoDb\demo'
+2019-01-04T09:46:34.656Z - error: Error when performing remote sync Error: EPERM: operation not permitted, stat 'D:\VS_WS\Node_WS\Foundry\data\samples\MongoDb\demo'
+2019-01-04T09:46:34.674Z - error: Error when performing remote sync Error: EPERM: operation not permitted, stat 'D:\VS_WS\Node_WS\Foundry\data\samples\MongoDb\demo'
+2019-01-04T09:46:34.687Z - error: Error when performing remote sync Error: EPERM: operation not permitted, stat 'D:\VS_WS\Node_WS\Foundry\data\samples\MongoDb\demo'
+2019-01-04T09:46:34.702Z - error: Error when performing remote sync Error: EPERM: operation not permitted, stat 'D:\VS_WS\Node_WS\Foundry\data\samples\MongoDb\demo'
+2019-01-04T09:46:34.733Z - debug: Sending external-modification socket to the studio
+2019-01-04T09:46:34.776Z - debug: Sending external-modification socket to the studio
+2019-01-04T09:46:34.811Z - debug: Sending external-modification socket to the studio
+2019-01-04T09:46:34.840Z - debug: Sending external-modification socket to the studio
+2019-01-04T09:46:35.988Z - debug: fs store sync is triggering reload, because D:\VS_WS\Node_WS\Foundry\data\samples\MongoDb\config.json was changed by other process
+2019-01-04T09:46:35.989Z - info: fs store is loading data
+2019-01-04T09:46:35.989Z - debug: fs store sync is triggering reload, because D:\VS_WS\Node_WS\Foundry\data\samples\MongoDb was changed by other process
+2019-01-04T09:46:36.013Z - info: fs store is loading data
+2019-01-04T09:46:36.020Z - debug: Sending external-modification socket to the studio
+2019-01-04T09:46:36.049Z - debug: Sending external-modification socket to the studio
+2019-01-04T09:46:48.598Z - debug: fs store sync is triggering reload, because D:\VS_WS\Node_WS\Foundry\data\samples\report\config.json was changed by other process
+2019-01-04T09:46:48.603Z - info: fs store is loading data
+2019-01-04T09:46:48.605Z - debug: fs store sync is triggering reload, because D:\VS_WS\Node_WS\Foundry\data\samples\report\get_Excel_script\config.json was changed by other process
+2019-01-04T09:46:48.607Z - debug: fs store sync is triggering reload, because D:\VS_WS\Node_WS\Foundry\data\samples\report\xlsx\content.handlebars was changed by other process
+2019-01-04T09:46:48.608Z - debug: fs store sync is triggering reload, because D:\VS_WS\Node_WS\Foundry\data\samples\report\sample data\dataJson.json was changed by other process
+2019-01-04T09:46:48.610Z - debug: fs store sync is triggering reload, because D:\VS_WS\Node_WS\Foundry\data\samples\report\xlsx\config.json was changed by other process
+2019-01-04T09:46:48.612Z - debug: fs store sync is triggering reload, because D:\VS_WS\Node_WS\Foundry\data\samples\report\sample data\config.json was changed by other process
+2019-01-04T09:46:48.613Z - debug: fs store sync is triggering reload, because D:\VS_WS\Node_WS\Foundry\data\samples\report\get_Excel_script\content.js was changed by other process
+2019-01-04T09:46:48.614Z - debug: fs store sync is triggering reload, because D:\VS_WS\Node_WS\Foundry\data\samples\report\xlsx was changed by other process
+2019-01-04T09:46:48.615Z - debug: fs store sync is triggering reload, because D:\VS_WS\Node_WS\Foundry\data\samples\report\sample data was changed by other process
+2019-01-04T09:46:48.617Z - debug: fs store sync is triggering reload, because D:\VS_WS\Node_WS\Foundry\data\samples\report\get_Excel_script was changed by other process
+2019-01-04T09:46:48.653Z - info: fs store is loading data
+2019-01-04T09:46:48.656Z - info: fs store is loading data
+2019-01-04T09:46:48.657Z - info: fs store is loading data
+2019-01-04T09:46:48.659Z - info: fs store is loading data
+2019-01-04T09:46:48.660Z - info: fs store is loading data
+2019-01-04T09:46:48.660Z - info: fs store is loading data
+2019-01-04T09:46:48.661Z - info: fs store is loading data
+2019-01-04T09:46:48.661Z - info: fs store is loading data
+2019-01-04T09:46:48.662Z - info: fs store is loading data
+2019-01-04T09:46:48.663Z - debug: Sending external-modification socket to the studio
+2019-01-04T09:46:48.711Z - debug: Sending external-modification socket to the studio
+2019-01-04T09:46:48.737Z - debug: Sending external-modification socket to the studio
+2019-01-04T09:46:48.780Z - debug: Sending external-modification socket to the studio
+2019-01-04T09:46:48.811Z - debug: Sending external-modification socket to the studio
+2019-01-04T09:46:48.851Z - debug: Sending external-modification socket to the studio
+2019-01-04T09:46:48.880Z - debug: Sending external-modification socket to the studio
+2019-01-04T09:46:48.909Z - debug: Sending external-modification socket to the studio
+2019-01-04T09:46:48.929Z - debug: Sending external-modification socket to the studio
+2019-01-04T09:46:48.952Z - debug: Sending external-modification socket to the studio
+2019-01-04T09:46:49.916Z - debug: fs store sync is triggering reload, because D:\VS_WS\Node_WS\Foundry\data\samples\report\config.json was changed by other process
+2019-01-04T09:46:49.917Z - info: fs store is loading data
+2019-01-04T09:46:49.918Z - debug: fs store sync is triggering reload, because D:\VS_WS\Node_WS\Foundry\data\samples\report was changed by other process
+2019-01-04T09:46:49.967Z - info: fs store is loading data
+2019-01-04T09:46:49.969Z - debug: Sending external-modification socket to the studio
+2019-01-04T09:46:50.020Z - debug: Sending external-modification socket to the studio
+2019-01-04T09:46:57.161Z - debug: OData query on templates
+2019-01-04T09:46:57.168Z - debug: OData query on folders
+2019-01-04T09:46:57.171Z - debug: OData query on tags
+2019-01-04T09:46:57.173Z - debug: OData query on data
+2019-01-04T09:46:57.175Z - debug: OData query on assets
+2019-01-04T09:46:57.182Z - debug: OData query on scripts
+2019-01-04T09:46:57.185Z - debug: OData query on xlsxTemplates
+2019-01-04T09:46:57.191Z - debug: OData query on schedules
+2019-01-04T09:46:57.202Z - debug: OData query on settings
+2019-01-04T09:46:57.389Z - debug: OData query on templates
+2019-01-04T09:46:57.411Z - debug: OData query on settings
+2019-01-04T09:47:08.897Z - debug: OData insert into folders
+2019-01-04T09:47:44.781Z - debug: OData insert into templates
+2019-01-04T09:47:58.903Z - debug: OData update on templates
+2019-01-04T09:47:59.089Z - debug: OData update on templates
+2019-01-04T09:48:00.387Z - info: Starting rendering request 1 (user: null)
+2019-01-04T09:48:00.391Z - info: Rendering template { name: Product_list, recipe: chrome-pdf, engine: handlebars, preview: true }
+2019-01-04T09:48:00.392Z - debug: Data item not defined for this template.
+2019-01-04T09:48:00.393Z - debug: Resources not defined for this template.
+2019-01-04T09:48:00.396Z - debug: Base url not specified, skipping its injection.
+2019-01-04T09:48:00.400Z - debug: Rendering engine handlebars
+2019-01-04T09:48:01.050Z - warn: Error when processing render request Error while executing templating engine. Unable to find module mongodb
+Searched paths: 
+mongodb
+mongodb
+D:\VS_WS\Node_WS\Foundry\mongodb
+D:\VS_WS\Node_WS\Foundry\mongodb
+D:\VS_WS\Node_WS\Foundry\node_modules\jsreport-cli\lib\mongodb
+. 
+
+  20 | })(this)
+  21 | 
+> 22 |  const MongoClient = require('mongodb').MongoClient;
+     |                      ^
+  23 | 
+  24 |  async function beforeRender(req, res) {
+  25 |      const conn = await MongoClient.connect('mongodb://34.220.110.164:27017');
+
+ Error: Unable to find module mongodb
+Searched paths: 
+mongodb
+mongodb
+D:\VS_WS\Node_WS\Foundry\mongodb
+D:\VS_WS\Node_WS\Foundry\mongodb
+D:\VS_WS\Node_WS\Foundry\node_modules\jsreport-cli\lib\mongodb
+
+    at doRequire (D:\VS_WS\Node_WS\Foundry\node_modules\jsreport-core\lib\render\safeSandbox.js:213:11)
+    at _require (D:\VS_WS\Node_WS\Foundry\node_modules\jsreport-core\lib\render\safeSandbox.js:54:14)
+    at Object.apply (D:\VS_WS\Node_WS\Foundry\node_modules\vm2\lib/contextify.js:288:34)
+    at evaluate-template-engine-helpers.js:22:22
+    at Script.runInContext (vm.js:133:20)
+    at VM.run (D:\VS_WS\Node_WS\Foundry\node_modules\vm2\lib\main.js:212:72)
+    at run (D:\VS_WS\Node_WS\Foundry\node_modules\jsreport-core\lib\render\safeSandbox.js:171:19)
+    at module.exports (D:\VS_WS\Node_WS\Foundry\node_modules\jsreport-core\lib\render\engineScript.js:156:9)
+    at process.<anonymous> (D:\VS_WS\Node_WS\Foundry\node_modules\script-manager\lib\worker-processes.js:56:36)
+    at process.emit (events.js:189:13)
+2019-01-04T09:48:01.052Z - warn: Error during processing request at http://localhost:5400/api/report/Product_list
+2019-01-04T09:48:11.389Z - debug: OData update on templates
+2019-01-04T09:48:12.790Z - info: Starting rendering request 2 (user: null)
+2019-01-04T09:48:12.792Z - info: Rendering template { name: Product_list, recipe: chrome-pdf, engine: handlebars, preview: true }
+2019-01-04T09:48:12.794Z - debug: Data item not defined for this template.
+2019-01-04T09:48:12.796Z - debug: Resources not defined for this template.
+2019-01-04T09:48:12.799Z - debug: Base url not specified, skipping its injection.
+2019-01-04T09:48:12.803Z - debug: Rendering engine handlebars
+2019-01-04T09:48:13.107Z - debug: Compiled template not found in the cache, compiling
+2019-01-04T09:48:13.108Z - debug: Executing recipe chrome-pdf
+2019-01-04T09:48:21.431Z - debug: Converting with chrome HeadlessChrome/72.0.3617.0 using dedicated-process strategy
+2019-01-04T09:48:34.842Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2019-01-04T09:48:36.350Z - debug: Skipping storing report.
+2019-01-04T09:48:36.360Z - info: Rendering request 2 finished in 23572 ms
+2019-01-04T09:49:20.807Z - debug: OData insert into scripts
+2019-01-04T09:51:28.278Z - debug: OData update on templates
+2019-01-04T09:51:29.217Z - info: Starting rendering request 3 (user: null)
+2019-01-04T09:51:29.220Z - info: Rendering template { name: Product_list, recipe: chrome-pdf, engine: handlebars, preview: true }
+2019-01-04T09:51:29.222Z - debug: Data item not defined for this template.
+2019-01-04T09:51:29.223Z - debug: Resources not defined for this template.
+2019-01-04T09:51:29.229Z - debug: Executing script get_productlist_script
+2019-01-04T09:51:31.246Z - warn: Error when processing render request Error while executing user script. Unable to find module mongodb
+Searched paths: 
+mongodb
+mongodb
+D:\VS_WS\Node_WS\Foundry\mongodb
+D:\VS_WS\Node_WS\Foundry\mongodb
+D:\VS_WS\Node_WS\Foundry\node_modules\jsreport-cli\lib\mongodb
+. 
+
+> 1 |  const MongoClient = require('mongodb').MongoClient;
+    |                      ^
+  2 | 
+  3 |  async function beforeRender(req, res) {
+  4 |      const conn = await MongoClient.connect('mongodb://34.220.110.164:27017');
+
+ Error: Unable to find module mongodb
+Searched paths: 
+mongodb
+mongodb
+D:\VS_WS\Node_WS\Foundry\mongodb
+D:\VS_WS\Node_WS\Foundry\mongodb
+D:\VS_WS\Node_WS\Foundry\node_modules\jsreport-cli\lib\mongodb
+
+    at doRequire (D:\VS_WS\Node_WS\Foundry\node_modules\jsreport-core\lib\render\safeSandbox.js:213:11)
+    at _require (D:\VS_WS\Node_WS\Foundry\node_modules\jsreport-core\lib\render\safeSandbox.js:54:14)
+    at Object.apply (D:\VS_WS\Node_WS\Foundry\node_modules\vm2\lib/contextify.js:288:34)
+    at evaluate-user-script.js:1:22
+    at Script.runInContext (vm.js:133:20)
+    at VM.run (D:\VS_WS\Node_WS\Foundry\node_modules\vm2\lib\main.js:212:72)
+    at run (D:\VS_WS\Node_WS\Foundry\node_modules\jsreport-core\lib\render\safeSandbox.js:171:19)
+    at module.exports (D:\VS_WS\Node_WS\Foundry\node_modules\jsreport-scripts\lib\scriptEvalChild.js:166:5)
+    at process.<anonymous> (D:\VS_WS\Node_WS\Foundry\node_modules\script-manager\lib\worker-processes.js:56:36)
+    at process.emit (events.js:189:13)
+2019-01-04T09:51:31.247Z - warn: Error during processing request at http://localhost:5400/api/report/Product_list
+2019-01-04T09:53:10.115Z - info: Starting rendering request 4 (user: null)
+2019-01-04T09:53:10.121Z - info: Rendering template { name: Product_list, recipe: chrome-pdf, engine: handlebars, preview: true }
+2019-01-04T09:53:10.123Z - debug: Data item not defined for this template.
+2019-01-04T09:53:10.124Z - debug: Resources not defined for this template.
+2019-01-04T09:53:10.127Z - debug: Executing script get_productlist_script
+2019-01-04T09:53:11.415Z - debug: Base url not specified, skipping its injection.
+2019-01-04T09:53:11.419Z - debug: Rendering engine handlebars
+2019-01-04T09:53:11.987Z - debug: Compiled template not found in the cache, compiling
+2019-01-04T09:53:11.989Z - debug: Executing recipe chrome-pdf
+2019-01-04T09:53:13.093Z - debug: Converting with chrome HeadlessChrome/72.0.3617.0 using dedicated-process strategy
+2019-01-04T09:53:15.035Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2019-01-04T09:53:15.622Z - debug: Skipping storing report.
+2019-01-04T09:53:15.626Z - info: Rendering request 4 finished in 5513 ms
+2019-01-04T09:54:18.625Z - debug: OData insert into folders
+2019-01-04T09:54:38.670Z - debug: OData update on folders
+2019-01-04T09:54:38.693Z - error: Error when processing OData PATCH: /odata/folders(JzS23P83cNF8JCKj) Error: ENOENT: no such file or directory, scandir 'D:\VS_WS\Node_WS\Foundry\data\samples\MongoDB'
+2019-01-04T09:55:23.348Z - debug: OData query on templates
+2019-01-04T09:55:23.389Z - debug: OData query on folders
+2019-01-04T09:55:23.395Z - debug: OData query on tags
+2019-01-04T09:55:23.397Z - debug: OData query on data
+2019-01-04T09:55:23.399Z - debug: OData query on assets
+2019-01-04T09:55:23.401Z - debug: OData query on scripts
+2019-01-04T09:55:23.403Z - debug: OData query on xlsxTemplates
+2019-01-04T09:55:23.415Z - debug: OData query on schedules
+2019-01-04T09:55:23.425Z - debug: OData query on settings
+2019-01-04T09:55:23.570Z - debug: OData query on templates
+2019-01-04T09:56:03.970Z - debug: OData query on templates
+2019-01-04T09:56:03.975Z - debug: OData query on folders
+2019-01-04T09:56:03.977Z - debug: OData query on tags
+2019-01-04T09:56:03.979Z - debug: OData query on data
+2019-01-04T09:56:03.990Z - debug: OData query on assets
+2019-01-04T09:56:03.994Z - debug: OData query on scripts
+2019-01-04T09:56:03.997Z - debug: OData query on xlsxTemplates
+2019-01-04T09:56:03.998Z - debug: OData query on schedules
+2019-01-04T09:56:04.081Z - debug: OData query on settings
+2019-01-04T09:56:04.229Z - debug: OData query on templates
+2019-01-04T09:56:10.436Z - debug: OData query on templates
+2019-01-04T09:56:13.822Z - debug: OData query on templates
+2019-01-04T09:56:17.524Z - debug: OData query on scripts
+2019-01-04T09:56:56.045Z - debug: OData remove from folders
+2019-01-04T09:56:59.413Z - debug: OData query on templates
+2019-01-04T09:56:59.415Z - debug: OData query on folders
+2019-01-04T09:56:59.418Z - debug: OData query on tags
+2019-01-04T09:56:59.420Z - debug: OData query on data
+2019-01-04T09:56:59.421Z - debug: OData query on assets
+2019-01-04T09:56:59.423Z - debug: OData query on scripts
+2019-01-04T09:56:59.438Z - debug: OData query on xlsxTemplates
+2019-01-04T09:56:59.441Z - debug: OData query on schedules
+2019-01-04T09:56:59.446Z - debug: OData query on settings
+2019-01-04T09:56:59.655Z - debug: OData query on templates
+2019-01-04T09:56:59.673Z - debug: OData query on settings
+2019-01-04T09:57:17.270Z - debug: OData insert into folders
+2019-01-04T09:57:36.284Z - debug: OData remove from folders
+2019-01-04T09:57:56.711Z - debug: OData insert into folders
+2019-01-04T10:23:53.259Z - debug: OData insert into templates
+2019-01-04T10:23:59.754Z - info: Verifying license key free
+2019-01-04T10:24:00.649Z - info: Starting one month enterprise trial
+2019-01-04T10:24:56.388Z - debug: OData insert into scripts
+2019-01-04T10:25:00.514Z - info: Starting rendering request 5 (user: null)
+2019-01-04T10:25:00.518Z - info: Rendering template { name: Xlsx, recipe: chrome-pdf, engine: handlebars, preview: true }
+2019-01-04T10:25:00.520Z - debug: Data item not defined for this template.
+2019-01-04T10:25:00.520Z - debug: Resources not defined for this template.
+2019-01-04T10:25:00.521Z - debug: Base url not specified, skipping its injection.
+2019-01-04T10:25:00.523Z - debug: Rendering engine handlebars
+2019-01-04T10:25:00.812Z - debug: Compiled template not found in the cache, compiling
+2019-01-04T10:25:00.813Z - debug: Executing recipe chrome-pdf
+2019-01-04T10:25:01.908Z - debug: Converting with chrome HeadlessChrome/72.0.3617.0 using dedicated-process strategy
+2019-01-04T10:25:05.493Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2019-01-04T10:25:06.554Z - debug: Skipping storing report.
+2019-01-04T10:25:06.565Z - info: Rendering request 5 finished in 6053 ms
+2019-01-04T10:25:24.887Z - debug: OData update on templates
+2019-01-04T10:25:26.117Z - debug: OData insert into settings
+2019-01-04T10:25:26.207Z - info: Starting rendering request 6 (user: null)
+2019-01-04T10:25:26.208Z - info: Rendering template { name: Xlsx, recipe: xlsx, engine: handlebars, preview: true }
+2019-01-04T10:25:26.209Z - debug: Data item not defined for this template.
+2019-01-04T10:25:26.209Z - debug: Resources not defined for this template.
+2019-01-04T10:25:26.507Z - debug: Base url not specified, skipping its injection.
+2019-01-04T10:25:26.510Z - debug: Rendering engine handlebars
+2019-01-04T10:25:31.043Z - debug: Compiled template not found in the cache, compiling
+2019-01-04T10:25:31.044Z - debug: Executing recipe xlsx
+2019-01-04T10:25:31.046Z - debug: Parsing xlsx content
+2019-01-04T10:25:31.053Z - debug: Zipping prepared xml files into C:\Users\MR\AppData\Local\Temp\jsreport\autocleanup\0ffe27b0-100b-11e9-bcee-7f3b07e01f7f.xlsx
+2019-01-04T10:25:31.098Z - debug: Successfully zipped now.
+2019-01-04T10:25:31.978Z - debug: Skipping storing report.
+2019-01-04T10:25:31.995Z - info: Rendering request 6 finished in 5781 ms
+2019-01-04T10:25:53.973Z - debug: OData query on templates
+2019-01-04T10:26:33.800Z - debug: OData update on templates
+2019-01-04T10:26:35.098Z - info: Starting rendering request 7 (user: null)
+2019-01-04T10:26:35.099Z - info: Rendering template { name: Xlsx, recipe: xlsx, engine: handlebars, preview: true }
+2019-01-04T10:26:35.100Z - debug: Data item not defined for this template.
+2019-01-04T10:26:35.101Z - debug: Resources not defined for this template.
+2019-01-04T10:26:35.109Z - debug: Executing script get_mongodb_script
+2019-01-04T10:26:36.369Z - debug: Base url not specified, skipping its injection.
+2019-01-04T10:26:36.372Z - debug: Rendering engine handlebars
+2019-01-04T10:26:36.780Z - debug: Compiled template not found in the cache, compiling
+2019-01-04T10:26:36.781Z - debug: Executing recipe xlsx
+2019-01-04T10:26:36.781Z - debug: Parsing xlsx content
+2019-01-04T10:26:36.786Z - debug: Zipping prepared xml files into C:\Users\MR\AppData\Local\Temp\jsreport\autocleanup\372c5e10-100b-11e9-bcee-7f3b07e01f7f.xlsx
+2019-01-04T10:26:36.811Z - debug: Successfully zipped now.
+2019-01-04T10:26:37.735Z - debug: Skipping storing report.
+2019-01-04T10:26:37.770Z - info: Rendering request 7 finished in 2666 ms
+2019-01-04T10:26:49.009Z - debug: OData insert into xlsxTemplates
+2019-01-04T10:26:49.252Z - debug: OData query on xlsxTemplates
+2019-01-04T10:26:55.414Z - info: Starting rendering request 8 (user: null)
+2019-01-04T10:26:55.416Z - info: Rendering template { name: Xlsx, recipe: xlsx, engine: handlebars, preview: true }
+2019-01-04T10:26:55.417Z - debug: Data item not defined for this template.
+2019-01-04T10:26:55.418Z - debug: Resources not defined for this template.
+2019-01-04T10:26:55.422Z - debug: Executing script get_mongodb_script
+2019-01-04T10:26:56.680Z - debug: Base url not specified, skipping its injection.
+2019-01-04T10:26:56.684Z - debug: Rendering engine handlebars
+2019-01-04T10:26:57.050Z - debug: Compiled template not found in the cache, compiling
+2019-01-04T10:26:57.051Z - debug: Executing recipe xlsx
+2019-01-04T10:26:57.052Z - debug: Parsing xlsx content
+2019-01-04T10:26:57.055Z - debug: Zipping prepared xml files into C:\Users\MR\AppData\Local\Temp\jsreport\autocleanup\43412be0-100b-11e9-bcee-7f3b07e01f7f.xlsx
+2019-01-04T10:26:57.083Z - debug: Successfully zipped now.
+2019-01-04T10:26:57.925Z - debug: Skipping storing report.
+2019-01-04T10:26:57.935Z - info: Rendering request 8 finished in 2521 ms
+2019-01-04T10:27:04.305Z - debug: OData query on scripts
+2019-01-04T10:27:10.568Z - debug: OData update on templates
+2019-01-04T10:27:11.984Z - info: Starting rendering request 9 (user: null)
+2019-01-04T10:27:11.985Z - info: Rendering template { name: Xlsx, recipe: xlsx, engine: handlebars, preview: true }
+2019-01-04T10:27:11.987Z - debug: Data item not defined for this template.
+2019-01-04T10:27:11.987Z - debug: Resources not defined for this template.
+2019-01-04T10:27:11.991Z - debug: Executing script get_mongodb_script
+2019-01-04T10:27:13.275Z - debug: Base url not specified, skipping its injection.
+2019-01-04T10:27:13.278Z - debug: Rendering engine handlebars
+2019-01-04T10:27:13.645Z - debug: Compiled template not found in the cache, compiling
+2019-01-04T10:27:13.647Z - debug: Executing recipe xlsx
+2019-01-04T10:27:13.648Z - debug: Parsing xlsx content
+2019-01-04T10:27:13.653Z - debug: Zipping prepared xml files into C:\Users\MR\AppData\Local\Temp\jsreport\autocleanup\4d25d340-100b-11e9-bcee-7f3b07e01f7f.xlsx
+2019-01-04T10:27:13.697Z - debug: Successfully zipped now.
+2019-01-04T10:27:14.709Z - debug: Skipping storing report.
+2019-01-04T10:27:14.725Z - info: Rendering request 9 finished in 2740 ms
+2019-01-04T10:54:34.106Z - debug: OData query on templates
+2019-01-04T11:08:21.621Z - info: Starting rendering request 10 (user: null)
+2019-01-04T11:08:21.622Z - info: Rendering template { name: Product_list, recipe: chrome-pdf, engine: handlebars, preview: true }
+2019-01-04T11:08:21.623Z - debug: Data item not defined for this template.
+2019-01-04T11:08:21.623Z - debug: Resources not defined for this template.
+2019-01-04T11:08:21.628Z - debug: Executing script get_productlist_script
+2019-01-04T11:08:22.922Z - debug: Base url not specified, skipping its injection.
+2019-01-04T11:08:22.931Z - debug: Rendering engine handlebars
+2019-01-04T11:08:23.282Z - debug: Compiled template not found in the cache, compiling
+2019-01-04T11:08:23.283Z - debug: Executing recipe chrome-pdf
+2019-01-04T11:08:24.444Z - debug: Converting with chrome HeadlessChrome/72.0.3617.0 using dedicated-process strategy
+2019-01-04T11:08:36.075Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2019-01-04T11:08:37.102Z - debug: Skipping storing report.
+2019-01-04T11:08:37.106Z - info: Rendering request 10 finished in 15486 ms
+2019-01-04T11:09:04.711Z - info: Starting rendering request 11 (user: null)
+2019-01-04T11:09:04.714Z - info: Rendering template { name: Product_list, recipe: chrome-pdf, engine: handlebars, preview: true }
+2019-01-04T11:09:04.717Z - debug: Data item not defined for this template.
+2019-01-04T11:09:04.718Z - debug: Resources not defined for this template.
+2019-01-04T11:09:04.725Z - debug: Executing script get_productlist_script
+2019-01-04T11:09:06.228Z - debug: Base url not specified, skipping its injection.
+2019-01-04T11:09:06.233Z - debug: Rendering engine handlebars
+2019-01-04T11:09:06.599Z - debug: Compiled template not found in the cache, compiling
+2019-01-04T11:09:06.600Z - debug: Executing recipe chrome-pdf
+2019-01-04T11:09:07.503Z - debug: Converting with chrome HeadlessChrome/72.0.3617.0 using dedicated-process strategy
+2019-01-04T11:09:09.985Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2019-01-04T11:09:10.453Z - debug: Skipping storing report.
+2019-01-04T11:09:10.457Z - info: Rendering request 11 finished in 5753 ms
+2019-01-04T11:09:57.276Z - info: Starting rendering request 12 (user: null)
+2019-01-04T11:09:57.278Z - info: Rendering template { name: Xlsx, recipe: xlsx, engine: handlebars, preview: true }
+2019-01-04T11:09:57.279Z - debug: Data item not defined for this template.
+2019-01-04T11:09:57.280Z - debug: Resources not defined for this template.
+2019-01-04T11:09:57.286Z - debug: Executing script get_mongodb_script
+2019-01-04T11:09:59.410Z - debug: Base url not specified, skipping its injection.
+2019-01-04T11:09:59.415Z - debug: Rendering engine handlebars
+2019-01-04T11:09:59.872Z - debug: Compiled template not found in the cache, compiling
+2019-01-04T11:09:59.874Z - debug: Executing recipe xlsx
+2019-01-04T11:09:59.875Z - debug: Parsing xlsx content
+2019-01-04T11:09:59.881Z - debug: Zipping prepared xml files into C:\Users\MR\AppData\Local\Temp\jsreport\autocleanup\46bd2480-1011-11e9-bcee-7f3b07e01f7f.xlsx
+2019-01-04T11:09:59.925Z - debug: Successfully zipped now.
+2019-01-04T11:10:00.923Z - debug: Skipping storing report.
+2019-01-04T11:10:00.964Z - info: Rendering request 12 finished in 3686 ms
+2019-01-04T11:33:31.578Z - info: Initializing jsreport@2.3.0 in development mode using configuration file: jsreport.config.json
+2019-01-04T11:33:31.580Z - info: Searching for available extensions in D:\VS_WS\Node_WS\Foundry\
+2019-01-04T11:33:31.612Z - info: Extensions location cache C:\Users\MR\AppData\Local\Temp\jsreport\core\locations.json contains older information, crawling
+2019-01-04T11:33:39.921Z - info: Found 31 extensions
+2019-01-04T11:33:39.971Z - debug: Writing extension locations cache to C:\Users\MR\AppData\Local\Temp\jsreport\core\locations.json
+2019-01-04T11:33:39.972Z - debug: Discovered 31 extensions
+2019-01-04T11:33:40.039Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-01-04T11:33:40.058Z - debug: Extension authentication is disabled, skipping
+2019-01-04T11:33:40.058Z - info: Using extension cli
+2019-01-04T11:33:40.062Z - info: Using extension debug
+2019-01-04T11:33:40.071Z - info: Using extension express
+2019-01-04T11:33:40.576Z - info: Using extension freeze
+2019-01-04T11:33:40.590Z - info: Using extension handlebars
+2019-01-04T11:33:40.606Z - info: Using extension import-export
+2019-01-04T11:33:41.557Z - info: Using extension jsrender
+2019-01-04T11:33:41.559Z - info: Using extension tags
+2019-01-04T11:33:41.567Z - info: Using extension templates
+2019-01-04T11:33:41.611Z - info: Using extension authorization
+2019-01-04T11:33:41.696Z - debug: Extension authorization was disabled
+2019-01-04T11:33:41.696Z - info: Using extension base
+2019-01-04T11:33:41.702Z - info: Using extension browser-client
+2019-01-04T11:33:41.717Z - info: Using extension child-templates
+2019-01-04T11:33:41.779Z - info: Using extension chrome-pdf
+2019-01-04T11:33:42.543Z - debug: Chrome strategy is dedicated-process
+2019-01-04T11:33:42.545Z - info: Using extension data
+2019-01-04T11:33:42.556Z - info: Using extension fs-store
+2019-01-04T11:33:43.267Z - info: Using extension html-to-xlsx
+2019-01-04T11:33:44.047Z - info: html-to-xlsx detected chrome as available html engine
+2019-01-04T11:33:44.047Z - info: Using extension licensing
+2019-01-04T11:33:44.086Z - info: Using extension pdf-utils
+2019-01-04T11:33:44.111Z - info: Using extension reports
+2019-01-04T11:33:44.167Z - info: Using extension studio
+2019-01-04T11:33:44.247Z - info: Using extension text
+2019-01-04T11:33:44.259Z - info: Using extension version-control
+2019-01-04T11:33:45.112Z - info: Using extension assets
+2019-01-04T11:33:45.531Z - info: Using extension scheduling
+2019-01-04T11:33:46.209Z - info: Using extension scripts
+2019-01-04T11:33:46.324Z - info: Using extension xlsx
+2019-01-04T11:33:48.032Z - info: Using extension public-templates
+2019-01-04T11:33:48.040Z - debug: Extension public-templates was disabled
+2019-01-04T11:33:48.040Z - info: Using extension resources
+2019-01-04T11:33:48.095Z - info: Using extension sample-template
+2019-01-04T11:33:48.174Z - info: fs store is persisting using fs
+2019-01-04T11:33:48.175Z - info: fs store is synchronizing using fs
+2019-01-04T11:33:48.185Z - info: fs store is loading data
+2019-01-04T11:33:48.417Z - debug: fs store sync is configured to use polling for files watcher
+2019-01-04T11:33:48.534Z - info: fs store is initialized successfully
+2019-01-04T11:33:48.567Z - info: Creating default express app.
+2019-01-04T11:33:49.519Z - debug: fs store sync is triggering reload, because D:\VS_WS\Node_WS\Foundry\data\settings was changed by other process
+2019-01-04T11:33:49.520Z - info: fs store is loading data
+2019-01-04T11:33:49.522Z - info: jsreport server successfully started on http port: 5400
+2019-01-04T11:33:49.543Z - info: fs store emits sockets to synchronize underlying changes with studio
+2019-01-04T11:33:49.898Z - info: Verifying license key free
+2019-01-04T11:33:49.992Z - debug: Sending external-modification socket to the studio
+2019-01-04T11:33:52.099Z - info: Using enterprise trial license
+2019-01-04T11:33:52.125Z - info: reporter initialized
+2019-01-04T11:33:59.769Z - debug: OData query on templates
+2019-01-04T11:33:59.778Z - debug: OData query on folders
+2019-01-04T11:33:59.780Z - debug: OData query on tags
+2019-01-04T11:33:59.782Z - debug: OData query on data
+2019-01-04T11:33:59.783Z - debug: OData query on assets
+2019-01-04T11:33:59.785Z - debug: OData query on scripts
+2019-01-04T11:33:59.793Z - debug: OData query on xlsxTemplates
+2019-01-04T11:33:59.796Z - debug: OData query on schedules
+2019-01-04T11:33:59.806Z - debug: OData query on settings
+2019-01-04T11:34:00.108Z - debug: OData query on templates
+2019-01-04T11:34:00.161Z - debug: OData query on settings
+2019-01-04T11:34:33.429Z - info: Starting rendering request 1 (user: null)
+2019-01-04T11:34:33.432Z - info: Rendering template { name: Product_list, recipe: chrome-pdf, engine: handlebars, preview: true }
+2019-01-04T11:34:33.434Z - debug: Data item not defined for this template.
+2019-01-04T11:34:33.435Z - debug: Resources not defined for this template.
+2019-01-04T11:34:33.438Z - debug: Executing script get_productlist_script
+2019-01-04T11:34:35.576Z - debug: Base url not specified, skipping its injection.
+2019-01-04T11:34:35.583Z - debug: Rendering engine handlebars
+2019-01-04T11:34:36.106Z - debug: Compiled template not found in the cache, compiling
+2019-01-04T11:34:36.108Z - debug: Executing recipe chrome-pdf
+2019-01-04T11:34:42.381Z - debug: Converting with chrome HeadlessChrome/72.0.3617.0 using dedicated-process strategy
+2019-01-04T11:34:57.628Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2019-01-04T11:34:58.839Z - debug: Skipping storing report.
+2019-01-04T11:34:58.845Z - info: Rendering request 1 finished in 25417 ms
+2019-01-04T11:35:23.176Z - info: Starting rendering request 2 (user: null)
+2019-01-04T11:35:23.178Z - info: Rendering template { name: Xlsx, recipe: xlsx, engine: handlebars, preview: true }
+2019-01-04T11:35:23.179Z - debug: Data item not defined for this template.
+2019-01-04T11:35:23.180Z - debug: Resources not defined for this template.
+2019-01-04T11:35:23.370Z - debug: Executing script get_mongodb_script
+2019-01-04T11:35:24.685Z - debug: Base url not specified, skipping its injection.
+2019-01-04T11:35:24.690Z - debug: Rendering engine handlebars
+2019-01-04T11:35:29.869Z - debug: Compiled template not found in the cache, compiling
+2019-01-04T11:35:29.871Z - debug: Executing recipe xlsx
+2019-01-04T11:35:29.872Z - debug: Parsing xlsx content
+2019-01-04T11:35:29.878Z - debug: Zipping prepared xml files into C:\Users\MR\AppData\Local\Temp\jsreport\autocleanup\d6b04f60-1014-11e9-8932-ed3917916779.xlsx
+2019-01-04T11:35:29.964Z - debug: Successfully zipped now.
+2019-01-04T11:35:30.953Z - debug: Skipping storing report.
+2019-01-04T11:35:30.963Z - info: Rendering request 2 finished in 7787 ms
+2019-01-04T11:47:26.657Z - info: Starting rendering request 3 (user: null)
+2019-01-04T11:47:26.658Z - info: Rendering template { name: Xlsx, recipe: xlsx, engine: handlebars, preview: true }
+2019-01-04T11:47:26.659Z - debug: Data item not defined for this template.
+2019-01-04T11:47:26.659Z - debug: Resources not defined for this template.
+2019-01-04T11:47:26.682Z - debug: Executing script get_mongodb_script
+2019-01-04T11:47:30.668Z - debug: Base url not specified, skipping its injection.
+2019-01-04T11:47:30.671Z - debug: Rendering engine handlebars
+2019-01-04T11:47:31.401Z - debug: Compiled template not found in the cache, compiling
+2019-01-04T11:47:31.402Z - debug: Executing recipe xlsx
+2019-01-04T11:47:31.402Z - debug: Parsing xlsx content
+2019-01-04T11:47:31.405Z - debug: Zipping prepared xml files into C:\Users\MR\AppData\Local\Temp\jsreport\autocleanup\84c070c0-1016-11e9-8932-ed3917916779.xlsx
+2019-01-04T11:47:31.456Z - debug: Successfully zipped now.
+2019-01-04T11:47:32.607Z - debug: Skipping storing report.
+2019-01-04T11:47:32.632Z - info: Rendering request 3 finished in 5975 ms
+2019-01-04T11:47:38.793Z - info: Starting rendering request 4 (user: null)
+2019-01-04T11:47:38.794Z - info: Rendering template { name: Product_list, recipe: chrome-pdf, engine: handlebars, preview: true }
+2019-01-04T11:47:38.795Z - debug: Data item not defined for this template.
+2019-01-04T11:47:38.795Z - debug: Resources not defined for this template.
+2019-01-04T11:47:38.796Z - debug: Executing script get_productlist_script
+2019-01-04T11:47:40.044Z - debug: Base url not specified, skipping its injection.
+2019-01-04T11:47:40.048Z - debug: Rendering engine handlebars
+2019-01-04T11:47:40.312Z - debug: Compiled template not found in the cache, compiling
+2019-01-04T11:47:40.313Z - debug: Executing recipe chrome-pdf
+2019-01-04T11:47:43.229Z - debug: Converting with chrome HeadlessChrome/72.0.3617.0 using dedicated-process strategy
+2019-01-04T11:47:45.204Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2019-01-04T11:47:46.273Z - debug: Skipping storing report.
+2019-01-04T11:47:46.277Z - info: Rendering request 4 finished in 7484 ms
+2019-01-04T11:50:53.485Z - info: Starting rendering request 5 (user: null)
+2019-01-04T11:50:53.487Z - info: Rendering template { name: Product_list, recipe: chrome-pdf, engine: handlebars, preview: true }
+2019-01-04T11:50:53.490Z - debug: Data item not defined for this template.
+2019-01-04T11:50:53.492Z - debug: Resources not defined for this template.
+2019-01-04T11:50:53.495Z - debug: Executing script get_productlist_script
+2019-01-04T11:50:55.930Z - debug: Base url not specified, skipping its injection.
+2019-01-04T11:50:55.937Z - debug: Rendering engine handlebars
+2019-01-04T11:50:56.207Z - debug: Compiled template not found in the cache, compiling
+2019-01-04T11:50:56.207Z - debug: Executing recipe chrome-pdf
+2019-01-04T11:50:56.998Z - debug: Converting with chrome HeadlessChrome/72.0.3617.0 using dedicated-process strategy
+2019-01-04T11:50:58.696Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2019-01-04T11:50:59.512Z - debug: Skipping storing report.
+2019-01-04T11:50:59.522Z - info: Rendering request 5 finished in 6036 ms
+2019-01-04T11:58:28.033Z - info: Starting rendering request 6 (user: null)
+2019-01-04T11:58:28.035Z - info: Rendering template { name: Product_list, recipe: chrome-pdf, engine: handlebars, preview: true }
+2019-01-04T11:58:28.045Z - debug: Data item not defined for this template.
+2019-01-04T11:58:28.046Z - debug: Resources not defined for this template.
+2019-01-04T11:58:28.050Z - debug: Executing script get_productlist_script
+2019-01-04T11:58:29.740Z - debug: Base url not specified, skipping its injection.
+2019-01-04T11:58:29.743Z - debug: Rendering engine handlebars
+2019-01-04T11:58:30.056Z - debug: Compiled template not found in the cache, compiling
+2019-01-04T11:58:30.056Z - debug: Executing recipe chrome-pdf
+2019-01-04T11:58:30.846Z - debug: Converting with chrome HeadlessChrome/72.0.3617.0 using dedicated-process strategy
+2019-01-04T11:58:32.570Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2019-01-04T11:58:33.196Z - debug: Skipping storing report.
+2019-01-04T11:58:33.199Z - info: Rendering request 6 finished in 5166 ms
+2019-01-04T11:59:04.340Z - info: Starting rendering request 7 (user: null)
+2019-01-04T11:59:04.341Z - info: Rendering template { name: Xlsx, recipe: xlsx, engine: handlebars, preview: true }
+2019-01-04T11:59:04.341Z - debug: Data item not defined for this template.
+2019-01-04T11:59:04.341Z - debug: Resources not defined for this template.
+2019-01-04T11:59:04.360Z - debug: Executing script get_mongodb_script
+2019-01-04T11:59:05.624Z - debug: Base url not specified, skipping its injection.
+2019-01-04T11:59:05.628Z - debug: Rendering engine handlebars
+2019-01-04T11:59:06.217Z - debug: Compiled template not found in the cache, compiling
+2019-01-04T11:59:06.218Z - debug: Executing recipe xlsx
+2019-01-04T11:59:06.218Z - debug: Parsing xlsx content
+2019-01-04T11:59:06.221Z - debug: Zipping prepared xml files into C:\Users\MR\AppData\Local\Temp\jsreport\autocleanup\22e519d0-1018-11e9-8932-ed3917916779.xlsx
+2019-01-04T11:59:06.269Z - debug: Successfully zipped now.
+2019-01-04T11:59:07.494Z - debug: Skipping storing report.
+2019-01-04T11:59:07.505Z - info: Rendering request 7 finished in 3166 ms
+2019-01-04T12:00:01.191Z - debug: OData query on templates
+2019-01-04T12:00:01.196Z - debug: OData query on folders
+2019-01-04T12:00:01.198Z - debug: OData query on tags
+2019-01-04T12:00:01.200Z - debug: OData query on data
+2019-01-04T12:00:01.201Z - debug: OData query on assets
+2019-01-04T12:00:01.205Z - debug: OData query on scripts
+2019-01-04T12:00:01.215Z - debug: OData query on xlsxTemplates
+2019-01-04T12:00:01.221Z - debug: OData query on schedules
+2019-01-04T12:00:01.230Z - debug: OData query on settings
+2019-01-04T12:00:01.541Z - debug: OData query on templates
+2019-01-04T12:00:01.571Z - debug: OData query on settings
+2019-01-04T12:00:17.432Z - debug: OData query on templates
+2019-01-04T12:00:21.017Z - debug: OData query on scripts
+2019-01-04T12:00:25.363Z - debug: OData query on templates
+2019-01-04T12:00:28.519Z - debug: OData query on scripts
+2019-01-05T06:21:53.571Z - info: Initializing jsreport@2.3.0 in development mode using configuration file: jsreport.config.json
+2019-01-05T06:21:53.573Z - info: Searching for available extensions in D:\VS_WS\Foundry_Report\
+2019-01-05T06:21:53.605Z - info: Extensions location cache contains up to date information, skipping crawling in D:\VS_WS\Foundry_Report\
+2019-01-05T06:21:53.615Z - info: Found 31 extensions
+2019-01-05T06:21:53.648Z - debug: Writing extension locations cache to C:\Users\MR\AppData\Local\Temp\jsreport\core\locations.json
+2019-01-05T06:21:53.652Z - debug: Discovered 31 extensions
+2019-01-05T06:21:53.711Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-01-05T06:21:53.720Z - debug: Extension authentication is disabled, skipping
+2019-01-05T06:21:53.721Z - info: Using extension cli
+2019-01-05T06:21:53.726Z - info: Using extension debug
+2019-01-05T06:21:53.728Z - info: Using extension express
+2019-01-05T06:21:53.904Z - info: Using extension freeze
+2019-01-05T06:21:53.906Z - info: Using extension handlebars
+2019-01-05T06:21:53.909Z - info: Using extension import-export
+2019-01-05T06:21:54.042Z - info: Using extension jsrender
+2019-01-05T06:21:54.043Z - info: Using extension tags
+2019-01-05T06:21:54.046Z - info: Using extension templates
+2019-01-05T06:21:54.050Z - info: Using extension authorization
+2019-01-05T06:21:54.055Z - debug: Extension authorization was disabled
+2019-01-05T06:21:54.055Z - info: Using extension base
+2019-01-05T06:21:54.057Z - info: Using extension browser-client
+2019-01-05T06:21:54.060Z - info: Using extension child-templates
+2019-01-05T06:21:54.068Z - info: Using extension chrome-pdf
+2019-01-05T06:21:54.174Z - debug: Chrome strategy is dedicated-process
+2019-01-05T06:21:54.175Z - info: Using extension data
+2019-01-05T06:21:54.176Z - info: Using extension fs-store
+2019-01-05T06:21:54.416Z - info: Using extension html-to-xlsx
+2019-01-05T06:21:54.509Z - info: html-to-xlsx detected chrome as available html engine
+2019-01-05T06:21:54.510Z - info: Using extension licensing
+2019-01-05T06:21:54.514Z - info: Using extension pdf-utils
+2019-01-05T06:21:54.516Z - info: Using extension reports
+2019-01-05T06:21:54.520Z - info: Using extension studio
+2019-01-05T06:21:54.539Z - info: Using extension text
+2019-01-05T06:21:54.540Z - info: Using extension version-control
+2019-01-05T06:21:54.625Z - info: Using extension assets
+2019-01-05T06:21:54.637Z - info: Using extension scheduling
+2019-01-05T06:21:54.694Z - info: Using extension scripts
+2019-01-05T06:21:54.699Z - info: Using extension xlsx
+2019-01-05T06:21:54.757Z - info: Using extension public-templates
+2019-01-05T06:21:54.759Z - debug: Extension public-templates was disabled
+2019-01-05T06:21:54.760Z - info: Using extension resources
+2019-01-05T06:21:54.762Z - info: Using extension sample-template
+2019-01-05T06:21:54.773Z - info: fs store is persisting using fs
+2019-01-05T06:21:54.774Z - info: fs store is synchronizing using fs
+2019-01-05T06:21:54.778Z - info: fs store is loading data
+2019-01-05T06:21:54.811Z - debug: fs store sync is configured to use polling for files watcher
+2019-01-05T06:21:54.896Z - info: fs store is initialized successfully
+2019-01-05T06:21:54.924Z - info: Creating default express app.
+2019-01-05T06:21:54.954Z - info: jsreport server successfully started on http port: 5400
+2019-01-05T06:21:54.956Z - info: fs store emits sockets to synchronize underlying changes with studio
+2019-01-05T06:21:54.984Z - info: Verifying license key free
+2019-01-05T06:21:55.957Z - info: Using enterprise trial license
+2019-01-05T06:21:55.965Z - info: reporter initialized
+2019-01-05T06:22:04.884Z - debug: OData query on templates
+2019-01-05T06:22:04.895Z - debug: OData query on folders
+2019-01-05T06:22:04.897Z - debug: OData query on tags
+2019-01-05T06:22:04.898Z - debug: OData query on data
+2019-01-05T06:22:04.900Z - debug: OData query on assets
+2019-01-05T06:22:04.901Z - debug: OData query on scripts
+2019-01-05T06:22:04.916Z - debug: OData query on xlsxTemplates
+2019-01-05T06:22:04.941Z - debug: OData query on schedules
+2019-01-05T06:22:04.950Z - debug: OData query on settings
+2019-01-05T06:22:05.163Z - debug: OData query on templates
+2019-01-05T06:22:05.193Z - debug: OData query on settings
+2019-01-05T06:22:09.219Z - debug: OData query on templates
+2019-01-05T06:22:13.475Z - info: Starting rendering request 1 (user: null)
+2019-01-05T06:22:13.479Z - info: Rendering template { name: Product_list, recipe: chrome-pdf, engine: handlebars, preview: true }
+2019-01-05T06:22:13.482Z - debug: Data item not defined for this template.
+2019-01-05T06:22:13.484Z - debug: Resources not defined for this template.
+2019-01-05T06:22:13.488Z - debug: Executing script get_productlist_script
+2019-01-05T06:22:15.822Z - debug: Base url not specified, skipping its injection.
+2019-01-05T06:22:15.832Z - debug: Rendering engine handlebars
+2019-01-05T06:22:16.498Z - debug: Compiled template not found in the cache, compiling
+2019-01-05T06:22:16.500Z - debug: Executing recipe chrome-pdf
+2019-01-05T06:22:21.660Z - debug: Converting with chrome HeadlessChrome/72.0.3617.0 using dedicated-process strategy
+2019-01-05T06:22:34.046Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2019-01-05T06:22:37.126Z - debug: Skipping storing report.
+2019-01-05T06:22:37.132Z - info: Rendering request 1 finished in 23665 ms
+2019-01-05T06:23:13.457Z - debug: OData query on templates
+2019-01-05T06:27:40.925Z - info: Initializing jsreport@2.3.0 in development mode using configuration file: jsreport.config.json
+2019-01-05T06:27:40.927Z - info: Searching for available extensions in D:\VS_WS\Foundry_Report\
+2019-01-05T06:27:40.936Z - info: Extensions location cache contains up to date information, skipping crawling in D:\VS_WS\Foundry_Report\
+2019-01-05T06:27:40.946Z - info: Found 31 extensions
+2019-01-05T06:27:40.965Z - debug: Writing extension locations cache to C:\Users\MR\AppData\Local\Temp\jsreport\core\locations.json
+2019-01-05T06:27:40.967Z - debug: Discovered 31 extensions
+2019-01-05T06:27:41.029Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-01-05T06:27:41.038Z - debug: Extension authentication is disabled, skipping
+2019-01-05T06:27:41.038Z - info: Using extension cli
+2019-01-05T06:27:41.043Z - info: Using extension debug
+2019-01-05T06:27:41.046Z - info: Using extension express
+2019-01-05T06:27:41.229Z - info: Using extension freeze
+2019-01-05T06:27:41.231Z - info: Using extension handlebars
+2019-01-05T06:27:41.233Z - info: Using extension import-export
+2019-01-05T06:27:41.363Z - info: Using extension jsrender
+2019-01-05T06:27:41.364Z - info: Using extension tags
+2019-01-05T06:27:41.368Z - info: Using extension templates
+2019-01-05T06:27:41.371Z - info: Using extension authorization
+2019-01-05T06:27:41.375Z - debug: Extension authorization was disabled
+2019-01-05T06:27:41.375Z - info: Using extension base
+2019-01-05T06:27:41.377Z - info: Using extension browser-client
+2019-01-05T06:27:41.379Z - info: Using extension child-templates
+2019-01-05T06:27:41.387Z - info: Using extension chrome-pdf
+2019-01-05T06:27:41.480Z - debug: Chrome strategy is dedicated-process
+2019-01-05T06:27:41.480Z - info: Using extension data
+2019-01-05T06:27:41.483Z - info: Using extension fs-store
+2019-01-05T06:27:41.726Z - info: Using extension html-to-xlsx
+2019-01-05T06:27:41.823Z - info: html-to-xlsx detected chrome as available html engine
+2019-01-05T06:27:41.825Z - info: Using extension licensing
+2019-01-05T06:27:41.829Z - info: Using extension pdf-utils
+2019-01-05T06:27:41.831Z - info: Using extension reports
+2019-01-05T06:27:41.835Z - info: Using extension studio
+2019-01-05T06:27:41.853Z - info: Using extension text
+2019-01-05T06:27:41.854Z - info: Using extension version-control
+2019-01-05T06:27:41.936Z - info: Using extension assets
+2019-01-05T06:27:41.949Z - info: Using extension scheduling
+2019-01-05T06:27:42.059Z - info: Using extension scripts
+2019-01-05T06:27:42.065Z - info: Using extension xlsx
+2019-01-05T06:27:42.125Z - info: Using extension public-templates
+2019-01-05T06:27:42.126Z - debug: Extension public-templates was disabled
+2019-01-05T06:27:42.127Z - info: Using extension resources
+2019-01-05T06:27:42.128Z - info: Using extension sample-template
+2019-01-05T06:27:42.137Z - info: fs store is persisting using fs
+2019-01-05T06:27:42.137Z - info: fs store is synchronizing using fs
+2019-01-05T06:27:42.142Z - info: fs store is loading data
+2019-01-05T06:27:42.173Z - debug: fs store sync is configured to use polling for files watcher
+2019-01-05T06:27:42.257Z - info: fs store is initialized successfully
+2019-01-05T06:27:42.289Z - info: Creating default express app.
+2019-01-05T06:27:42.313Z - info: jsreport server successfully started on http port: 5400
+2019-01-05T06:27:42.314Z - info: fs store emits sockets to synchronize underlying changes with studio
+2019-01-05T06:27:42.336Z - info: Verifying license key free
+2019-01-05T06:27:43.285Z - info: Using enterprise trial license
+2019-01-05T06:27:43.300Z - info: reporter initialized
+2019-01-05T06:29:51.355Z - debug: OData query on scripts
+2019-01-05T06:29:58.647Z - debug: OData update on scripts
+2019-01-05T06:32:38.515Z - debug: OData update on templates
+2019-01-05T06:32:41.562Z - debug: OData query on xlsxTemplates
+2019-01-05T06:50:19.244Z - debug: OData update on xlsxTemplates
+2019-01-05T06:50:19.417Z - debug: OData query on xlsxTemplates
+2019-01-05T06:50:21.714Z - debug: OData update on templates
+2019-01-05T06:50:23.317Z - info: Starting rendering request 1 (user: null)
+2019-01-05T06:50:23.320Z - info: Rendering template { name: Xlsx, recipe: xlsx, engine: handlebars, preview: true }
+2019-01-05T06:50:23.322Z - debug: Data item not defined for this template.
+2019-01-05T06:50:23.323Z - debug: Resources not defined for this template.
+2019-01-05T06:50:23.351Z - debug: Executing script get_mongodb_script
+2019-01-05T06:50:26.424Z - debug: Base url not specified, skipping its injection.
+2019-01-05T06:50:26.428Z - debug: Rendering engine handlebars
+2019-01-05T06:50:27.335Z - debug: Compiled template not found in the cache, compiling
+2019-01-05T06:50:27.341Z - debug: Executing recipe xlsx
+2019-01-05T06:50:27.342Z - debug: Parsing xlsx content
+2019-01-05T06:50:27.349Z - debug: Zipping prepared xml files into C:\Users\MR\AppData\Local\Temp\jsreport\autocleanup\2f331540-10b6-11e9-b9a6-3f7f61aba44d.xlsx
+2019-01-05T06:50:27.437Z - debug: Successfully zipped now.
+2019-01-05T06:50:28.435Z - debug: Skipping storing report.
+2019-01-05T06:50:28.449Z - info: Rendering request 1 finished in 5132 ms
+2019-01-05T06:51:06.102Z - debug: OData update on xlsxTemplates
+2019-01-05T06:51:06.228Z - debug: OData query on xlsxTemplates
+2019-01-05T06:51:08.880Z - info: Starting rendering request 2 (user: null)
+2019-01-05T06:51:08.886Z - info: Rendering template { name: Xlsx, recipe: xlsx, engine: handlebars, preview: true }
+2019-01-05T06:51:08.888Z - debug: Data item not defined for this template.
+2019-01-05T06:51:08.888Z - debug: Resources not defined for this template.
+2019-01-05T06:51:08.896Z - debug: Executing script get_mongodb_script
+2019-01-05T06:51:10.148Z - debug: Base url not specified, skipping its injection.
+2019-01-05T06:51:10.153Z - debug: Rendering engine handlebars
+2019-01-05T06:51:10.515Z - debug: Compiled template not found in the cache, compiling
+2019-01-05T06:51:10.518Z - debug: Executing recipe xlsx
+2019-01-05T06:51:10.518Z - debug: Parsing xlsx content
+2019-01-05T06:51:10.524Z - debug: Zipping prepared xml files into C:\Users\MR\AppData\Local\Temp\jsreport\autocleanup\48ef10b0-10b6-11e9-b9a6-3f7f61aba44d.xlsx
+2019-01-05T06:51:10.571Z - debug: Successfully zipped now.
+2019-01-05T06:51:11.432Z - debug: Skipping storing report.
+2019-01-05T06:51:11.439Z - info: Rendering request 2 finished in 2561 ms
+2019-01-05T06:52:53.713Z - debug: OData update on xlsxTemplates
+2019-01-05T06:52:53.828Z - debug: OData query on xlsxTemplates
+2019-01-05T06:53:01.256Z - info: Starting rendering request 3 (user: null)
+2019-01-05T06:53:01.258Z - info: Rendering template { name: Xlsx, recipe: xlsx, engine: handlebars, preview: true }
+2019-01-05T06:53:01.260Z - debug: Data item not defined for this template.
+2019-01-05T06:53:01.263Z - debug: Resources not defined for this template.
+2019-01-05T06:53:01.269Z - debug: Executing script get_mongodb_script
+2019-01-05T06:53:02.607Z - debug: Base url not specified, skipping its injection.
+2019-01-05T06:53:02.612Z - debug: Rendering engine handlebars
+2019-01-05T06:53:03.048Z - debug: Compiled template not found in the cache, compiling
+2019-01-05T06:53:03.050Z - debug: Executing recipe xlsx
+2019-01-05T06:53:03.051Z - debug: Parsing xlsx content
+2019-01-05T06:53:03.056Z - debug: Zipping prepared xml files into C:\Users\MR\AppData\Local\Temp\jsreport\autocleanup\8c0215f0-10b6-11e9-b9a6-3f7f61aba44d.xlsx
+2019-01-05T06:53:03.108Z - debug: Successfully zipped now.
+2019-01-05T06:53:03.972Z - debug: Skipping storing report.
+2019-01-05T06:53:03.985Z - info: Rendering request 3 finished in 2726 ms
+2019-01-05T06:53:12.100Z - info: Starting rendering request 4 (user: null)
+2019-01-05T06:53:12.102Z - info: Rendering template { name: Xlsx, recipe: xlsx, engine: handlebars, preview: true }
+2019-01-05T06:53:12.103Z - debug: Data item not defined for this template.
+2019-01-05T06:53:12.104Z - debug: Resources not defined for this template.
+2019-01-05T06:53:12.107Z - debug: Executing script get_mongodb_script
+2019-01-05T06:53:13.346Z - debug: Base url not specified, skipping its injection.
+2019-01-05T06:53:13.350Z - debug: Rendering engine handlebars
+2019-01-05T06:53:13.708Z - debug: Compiled template not found in the cache, compiling
+2019-01-05T06:53:13.709Z - debug: Executing recipe xlsx
+2019-01-05T06:53:13.711Z - debug: Parsing xlsx content
+2019-01-05T06:53:13.716Z - debug: Zipping prepared xml files into C:\Users\MR\AppData\Local\Temp\jsreport\autocleanup\925cd340-10b6-11e9-b9a6-3f7f61aba44d.xlsx
+2019-01-05T06:53:13.760Z - debug: Successfully zipped now.
+2019-01-05T06:53:14.606Z - debug: Skipping storing report.
+2019-01-05T06:53:14.620Z - info: Rendering request 4 finished in 2520 ms
+2019-01-05T06:53:26.309Z - debug: OData update on xlsxTemplates
+2019-01-05T06:53:26.422Z - debug: OData query on xlsxTemplates
+2019-01-05T06:53:30.275Z - info: Starting rendering request 5 (user: null)
+2019-01-05T06:53:30.276Z - info: Rendering template { name: Xlsx, recipe: xlsx, engine: handlebars, preview: true }
+2019-01-05T06:53:30.277Z - debug: Data item not defined for this template.
+2019-01-05T06:53:30.278Z - debug: Resources not defined for this template.
+2019-01-05T06:53:30.283Z - debug: Executing script get_mongodb_script
+2019-01-05T06:53:31.556Z - debug: Base url not specified, skipping its injection.
+2019-01-05T06:53:31.561Z - debug: Rendering engine handlebars
+2019-01-05T06:53:31.930Z - debug: Compiled template not found in the cache, compiling
+2019-01-05T06:53:31.932Z - debug: Executing recipe xlsx
+2019-01-05T06:53:31.933Z - debug: Parsing xlsx content
+2019-01-05T06:53:31.940Z - debug: Zipping prepared xml files into C:\Users\MR\AppData\Local\Temp\jsreport\autocleanup\9d399640-10b6-11e9-b9a6-3f7f61aba44d.xlsx
+2019-01-05T06:53:31.992Z - debug: Successfully zipped now.
+2019-01-05T06:53:32.992Z - debug: Skipping storing report.
+2019-01-05T06:53:33.001Z - info: Rendering request 5 finished in 2724 ms
+2019-01-05T06:53:44.537Z - info: Starting rendering request 6 (user: null)
+2019-01-05T06:53:44.541Z - info: Rendering template { name: Xlsx, recipe: xlsx, engine: handlebars, preview: true }
+2019-01-05T06:53:44.545Z - debug: Data item not defined for this template.
+2019-01-05T06:53:44.546Z - debug: Resources not defined for this template.
+2019-01-05T06:53:44.549Z - debug: Executing script get_mongodb_script
+2019-01-05T06:53:45.784Z - debug: Base url not specified, skipping its injection.
+2019-01-05T06:53:45.787Z - debug: Rendering engine handlebars
+2019-01-05T06:53:46.218Z - debug: Compiled template not found in the cache, compiling
+2019-01-05T06:53:46.219Z - debug: Executing recipe xlsx
+2019-01-05T06:53:46.220Z - debug: Parsing xlsx content
+2019-01-05T06:53:46.223Z - debug: Zipping prepared xml files into C:\Users\MR\AppData\Local\Temp\jsreport\autocleanup\a5bcd8e0-10b6-11e9-b9a6-3f7f61aba44d.xlsx
+2019-01-05T06:53:46.269Z - debug: Successfully zipped now.
+2019-01-05T06:53:47.133Z - debug: Skipping storing report.
+2019-01-05T06:53:47.142Z - info: Rendering request 6 finished in 2604 ms
+2019-01-05T06:53:58.081Z - debug: OData query on templates
+2019-01-05T06:53:58.127Z - debug: OData query on settings
+2019-01-05T06:54:00.551Z - info: Starting rendering request 7 (user: null)
+2019-01-05T06:54:00.553Z - info: Rendering template { name: Xlsx, recipe: xlsx, engine: handlebars, preview: true }
+2019-01-05T06:54:00.555Z - debug: Data item not defined for this template.
+2019-01-05T06:54:00.556Z - debug: Resources not defined for this template.
+2019-01-05T06:54:00.559Z - debug: Executing script get_mongodb_script
+2019-01-05T06:54:01.956Z - debug: Base url not specified, skipping its injection.
+2019-01-05T06:54:01.958Z - debug: Rendering engine handlebars
+2019-01-05T06:54:02.315Z - debug: Compiled template not found in the cache, compiling
+2019-01-05T06:54:02.317Z - debug: Executing recipe xlsx
+2019-01-05T06:54:02.318Z - debug: Parsing xlsx content
+2019-01-05T06:54:02.321Z - debug: Zipping prepared xml files into C:\Users\MR\AppData\Local\Temp\jsreport\autocleanup\af555c10-10b6-11e9-b9a6-3f7f61aba44d.xlsx
+2019-01-05T06:54:02.354Z - debug: Successfully zipped now.
+2019-01-05T06:54:03.200Z - debug: Skipping storing report.
+2019-01-05T06:54:03.208Z - info: Rendering request 7 finished in 2663 ms
+2019-01-05T06:54:21.340Z - debug: OData update on xlsxTemplates
+2019-01-05T06:54:21.444Z - debug: OData query on xlsxTemplates
+2019-01-05T06:54:23.168Z - info: Starting rendering request 8 (user: null)
+2019-01-05T06:54:23.171Z - info: Rendering template { name: Xlsx, recipe: xlsx, engine: handlebars, preview: true }
+2019-01-05T06:54:23.178Z - debug: Data item not defined for this template.
+2019-01-05T06:54:23.179Z - debug: Resources not defined for this template.
+2019-01-05T06:54:23.182Z - debug: Executing script get_mongodb_script
+2019-01-05T06:54:24.406Z - debug: Base url not specified, skipping its injection.
+2019-01-05T06:54:24.413Z - debug: Rendering engine handlebars
+2019-01-05T06:54:24.775Z - debug: Compiled template not found in the cache, compiling
+2019-01-05T06:54:24.778Z - debug: Executing recipe xlsx
+2019-01-05T06:54:24.778Z - debug: Parsing xlsx content
+2019-01-05T06:54:24.781Z - debug: Zipping prepared xml files into C:\Users\MR\AppData\Local\Temp\jsreport\autocleanup\bcb854c0-10b6-11e9-b9a6-3f7f61aba44d.xlsx
+2019-01-05T06:54:24.808Z - debug: Successfully zipped now.
+2019-01-05T06:54:25.660Z - debug: Skipping storing report.
+2019-01-05T06:54:25.670Z - info: Rendering request 8 finished in 2504 ms
+2019-01-05T06:55:06.632Z - debug: OData query on scripts
+2019-01-05T07:01:56.549Z - debug: OData update on templates
+2019-01-05T07:02:09.078Z - debug: OData update on templates
+2019-01-05T07:02:12.427Z - info: Starting rendering request 9 (user: null)
+2019-01-05T07:02:12.429Z - info: Rendering template { name: Product_list, recipe: chrome-pdf, engine: handlebars, preview: true }
+2019-01-05T07:02:12.430Z - debug: Data item not defined for this template.
+2019-01-05T07:02:12.431Z - debug: Resources not defined for this template.
+2019-01-05T07:02:12.432Z - debug: Executing script get_productlist_script
+2019-01-05T07:02:14.104Z - debug: Base url not specified, skipping its injection.
+2019-01-05T07:02:14.109Z - debug: Rendering engine handlebars
+2019-01-05T07:02:14.366Z - debug: Compiled template not found in the cache, compiling
+2019-01-05T07:02:14.367Z - debug: Executing recipe chrome-pdf
+2019-01-05T07:02:19.184Z - debug: Converting with chrome HeadlessChrome/72.0.3617.0 using dedicated-process strategy
+2019-01-05T07:02:37.764Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2019-01-05T07:02:38.990Z - debug: Skipping storing report.
+2019-01-05T07:02:38.995Z - info: Rendering request 9 finished in 26570 ms
+2019-01-05T07:02:59.724Z - debug: OData update on templates
+2019-01-05T07:03:00.366Z - info: Starting rendering request 10 (user: null)
+2019-01-05T07:03:00.370Z - info: Rendering template { name: Product_list, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2019-01-05T07:03:00.372Z - debug: Data item not defined for this template.
+2019-01-05T07:03:00.373Z - debug: Resources not defined for this template.
+2019-01-05T07:03:00.375Z - debug: Executing script get_productlist_script
+2019-01-05T07:03:01.617Z - debug: Base url not specified, skipping its injection.
+2019-01-05T07:03:01.622Z - debug: Rendering engine handlebars
+2019-01-05T07:03:01.877Z - debug: Compiled template not found in the cache, compiling
+2019-01-05T07:03:01.878Z - debug: Executing recipe html-to-xlsx
+2019-01-05T07:03:06.003Z - debug: Skipping storing report.
+2019-01-05T07:03:06.016Z - info: Rendering request 10 finished in 5648 ms
+2019-01-05T07:03:33.490Z - debug: OData update on templates
+2019-01-05T07:03:42.939Z - debug: OData update on templates
+2019-01-05T07:04:58.611Z - info: Starting rendering request 11 (user: null)
+2019-01-05T07:04:58.612Z - info: Rendering template { name: Product_list, recipe: chrome-pdf, engine: handlebars, preview: true }
+2019-01-05T07:04:58.613Z - debug: Data item not defined for this template.
+2019-01-05T07:04:58.615Z - debug: Resources not defined for this template.
+2019-01-05T07:04:58.625Z - debug: Executing script get_productlist_script
+2019-01-05T07:05:00.058Z - debug: Base url not specified, skipping its injection.
+2019-01-05T07:05:00.063Z - debug: Rendering engine handlebars
+2019-01-05T07:05:00.358Z - debug: Compiled template not found in the cache, compiling
+2019-01-05T07:05:00.359Z - debug: Executing recipe chrome-pdf
+2019-01-05T07:05:01.341Z - debug: Converting with chrome HeadlessChrome/72.0.3617.0 using dedicated-process strategy
+2019-01-05T07:05:02.860Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2019-01-05T07:05:03.517Z - debug: Skipping storing report.
+2019-01-05T07:05:03.520Z - info: Rendering request 11 finished in 4913 ms
+2019-01-05T07:05:16.618Z - info: Starting rendering request 12 (user: null)
+2019-01-05T07:05:16.620Z - info: Rendering template { name: Xlsx, recipe: xlsx, engine: handlebars, preview: true }
+2019-01-05T07:05:16.622Z - debug: Data item not defined for this template.
+2019-01-05T07:05:16.623Z - debug: Resources not defined for this template.
+2019-01-05T07:05:16.626Z - debug: Executing script get_mongodb_script
+2019-01-05T07:05:17.897Z - debug: Base url not specified, skipping its injection.
+2019-01-05T07:05:17.902Z - debug: Rendering engine handlebars
+2019-01-05T07:05:18.253Z - debug: Compiled template not found in the cache, compiling
+2019-01-05T07:05:18.254Z - debug: Executing recipe xlsx
+2019-01-05T07:05:18.254Z - debug: Parsing xlsx content
+2019-01-05T07:05:18.259Z - debug: Zipping prepared xml files into C:\Users\MR\AppData\Local\Temp\jsreport\autocleanup\42395030-10b8-11e9-b9a6-3f7f61aba44d.xlsx
+2019-01-05T07:05:18.304Z - debug: Successfully zipped now.
+2019-01-05T07:05:19.157Z - debug: Skipping storing report.
+2019-01-05T07:05:19.166Z - info: Rendering request 12 finished in 2551 ms
+2019-01-05T07:46:52.877Z - debug: fs store sync is triggering reload, because D:\VS_WS\Foundry_Report\data\settings was changed by other process
+2019-01-05T07:46:55.924Z - info: fs store is loading data
+2019-01-05T07:46:56.828Z - debug: Sending external-modification socket to the studio
+2019-01-05T07:46:59.647Z - debug: OData query on templates
+2019-01-05T07:47:01.396Z - info: Starting rendering request 13 (user: null)
+2019-01-05T07:47:01.404Z - info: Rendering template { name: Xlsx, recipe: xlsx, engine: handlebars, preview: true }
+2019-01-05T07:47:01.408Z - debug: Data item not defined for this template.
+2019-01-05T07:47:01.410Z - debug: Resources not defined for this template.
+2019-01-05T07:47:01.594Z - debug: Executing script get_mongodb_script
+2019-01-05T07:47:05.822Z - debug: Base url not specified, skipping its injection.
+2019-01-05T07:47:05.951Z - debug: Rendering engine handlebars
+2019-01-05T07:47:07.520Z - debug: Compiled template not found in the cache, compiling
+2019-01-05T07:47:07.525Z - debug: Executing recipe xlsx
+2019-01-05T07:47:07.525Z - debug: Parsing xlsx content
+2019-01-05T07:47:07.529Z - debug: Zipping prepared xml files into C:\Users\MR\AppData\Local\Temp\jsreport\autocleanup\19dd6080-10be-11e9-b9a6-3f7f61aba44d.xlsx
+2019-01-05T07:47:07.654Z - debug: Successfully zipped now.
+2019-01-05T07:47:08.863Z - debug: Skipping storing report.
+2019-01-05T07:47:08.870Z - info: Rendering request 13 finished in 7474 ms
+2019-01-05T09:11:05.659Z - debug: fs store sync is triggering reload, because D:\VS_WS\Foundry_Report\data\settings was changed by other process
+2019-01-05T09:11:05.772Z - info: fs store is loading data
+2019-01-05T09:11:14.002Z - debug: Sending external-modification socket to the studio
+2019-01-05T09:20:22.841Z - debug: fs store sync is triggering reload, because D:\VS_WS\Foundry_Report\data\settings was changed by other process
+2019-01-05T09:20:23.240Z - info: fs store is loading data
+2019-01-05T09:20:23.611Z - debug: Sending external-modification socket to the studio
+2019-01-05T09:22:19.338Z - info: Initializing jsreport@2.3.0 in development mode using configuration file: jsreport.config.json
+2019-01-05T09:22:19.344Z - info: Searching for available extensions in D:\VS_WS\Foundry_Report\
+2019-01-05T09:22:19.455Z - info: Extensions location cache contains up to date information, skipping crawling in D:\VS_WS\Foundry_Report\
+2019-01-05T09:22:19.487Z - info: Found 31 extensions
+2019-01-05T09:22:19.592Z - debug: Writing extension locations cache to C:\Users\MR\AppData\Local\Temp\jsreport\core\locations.json
+2019-01-05T09:22:19.611Z - debug: Discovered 31 extensions
+2019-01-05T09:22:19.667Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-01-05T09:22:19.699Z - debug: Extension authentication is disabled, skipping
+2019-01-05T09:22:19.699Z - info: Using extension cli
+2019-01-05T09:22:19.713Z - info: Using extension debug
+2019-01-05T09:22:19.727Z - info: Using extension express
+2019-01-05T09:22:23.804Z - info: Using extension freeze
+2019-01-05T09:22:23.826Z - info: Using extension handlebars
+2019-01-05T09:22:23.843Z - info: Using extension import-export
+2019-01-05T09:22:27.085Z - info: Using extension jsrender
+2019-01-05T09:22:27.320Z - info: Using extension tags
+2019-01-05T09:22:27.903Z - info: Using extension templates
+2019-01-05T09:22:28.083Z - info: Using extension authorization
+2019-01-05T09:22:28.613Z - debug: Extension authorization was disabled
+2019-01-05T09:22:28.613Z - info: Using extension base
+2019-01-05T09:22:28.624Z - info: Using extension browser-client
+2019-01-05T09:22:28.696Z - info: Using extension child-templates
+2019-01-05T09:22:28.797Z - info: Using extension chrome-pdf
+2019-01-05T09:22:30.852Z - debug: Chrome strategy is dedicated-process
+2019-01-05T09:22:30.853Z - info: Using extension data
+2019-01-05T09:22:30.886Z - info: Using extension fs-store
+2019-01-05T09:22:32.121Z - info: Using extension html-to-xlsx
+2019-01-05T09:22:33.245Z - info: html-to-xlsx detected chrome as available html engine
+2019-01-05T09:22:33.245Z - info: Using extension licensing
+2019-01-05T09:22:33.270Z - info: Using extension pdf-utils
+2019-01-05T09:22:33.300Z - info: Using extension reports
+2019-01-05T09:22:33.339Z - info: Using extension studio
+2019-01-05T09:22:33.503Z - info: Using extension text
+2019-01-05T09:22:33.505Z - info: Using extension version-control
+2019-01-05T09:22:34.851Z - info: Using extension assets
+2019-01-05T09:22:35.035Z - info: Using extension scheduling
+2019-01-05T09:22:35.488Z - info: Using extension scripts
+2019-01-05T09:22:35.546Z - info: Using extension xlsx
+2019-01-05T09:22:36.370Z - info: Using extension public-templates
+2019-01-05T09:22:36.390Z - debug: Extension public-templates was disabled
+2019-01-05T09:22:36.391Z - info: Using extension resources
+2019-01-05T09:22:36.445Z - info: Using extension sample-template
+2019-01-05T09:22:36.472Z - info: fs store is persisting using fs
+2019-01-05T09:22:36.472Z - info: fs store is synchronizing using fs
+2019-01-05T09:22:36.476Z - info: fs store is loading data
+2019-01-05T09:22:36.504Z - debug: fs store sync is configured to use polling for files watcher
+2019-01-05T09:22:36.581Z - info: fs store is initialized successfully
+2019-01-05T09:22:36.613Z - info: Creating default express app.
+2019-01-05T09:22:37.214Z - info: jsreport server successfully started on http port: 5400
+2019-01-05T09:22:37.218Z - info: fs store emits sockets to synchronize underlying changes with studio
+2019-01-05T09:22:37.838Z - info: Verifying license key free
+2019-01-05T09:22:38.818Z - info: Using enterprise trial license
+2019-01-05T09:22:38.824Z - info: reporter initialized
+2019-01-05T09:23:51.412Z - info: Starting rendering request 1 (user: null)
+2019-01-05T09:23:51.417Z - info: Rendering template { name: Product_list, recipe: chrome-pdf, engine: handlebars, preview: true }
+2019-01-05T09:23:51.419Z - debug: Data item not defined for this template.
+2019-01-05T09:23:51.420Z - debug: Resources not defined for this template.
+2019-01-05T09:23:51.424Z - debug: Executing script get_productlist_script
+2019-01-05T09:23:54.501Z - info: Starting rendering request 2 (user: null)
+2019-01-05T09:23:54.503Z - info: Rendering template { name: Product_list, recipe: chrome-pdf, engine: handlebars, preview: true }
+2019-01-05T09:23:54.504Z - debug: Data item not defined for this template.
+2019-01-05T09:23:54.504Z - debug: Resources not defined for this template.
+2019-01-05T09:23:54.507Z - debug: Executing script get_productlist_script
+2019-01-05T09:24:05.785Z - debug: Base url not specified, skipping its injection.
+2019-01-05T09:24:05.791Z - debug: Base url not specified, skipping its injection.
+2019-01-05T09:24:05.802Z - debug: Rendering engine handlebars
+2019-01-05T09:24:05.811Z - debug: Rendering engine handlebars
+2019-01-05T09:24:12.027Z - debug: Compiled template not found in the cache, compiling
+2019-01-05T09:24:12.028Z - debug: Executing recipe chrome-pdf
+2019-01-05T09:24:12.028Z - debug: Compiled template not found in the cache, compiling
+2019-01-05T09:24:12.029Z - debug: Executing recipe chrome-pdf
+2019-01-05T09:24:46.775Z - debug: Converting with chrome HeadlessChrome/72.0.3617.0 using dedicated-process strategy
+2019-01-05T09:24:46.777Z - debug: Converting with chrome HeadlessChrome/72.0.3617.0 using dedicated-process strategy
+2019-01-05T09:25:23.083Z - error: Error when processing render request Timeout Error: pdf generation not completed after 30000ms Error: Timeout Error: pdf generation not completed after 30000ms
+    at Timeout.setTimeout [as _onTimeout] (D:\VS_WS\Foundry_Report\node_modules\jsreport-chrome-pdf\lib\conversion.js:122:19)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+2019-01-05T09:25:23.087Z - error: Error during processing request at http://localhost:5400/api/report
+2019-01-05T09:25:23.094Z - error: Error when processing render request Timeout Error: pdf generation not completed after 30000ms Error: Timeout Error: pdf generation not completed after 30000ms
+    at Timeout.setTimeout [as _onTimeout] (D:\VS_WS\Foundry_Report\node_modules\jsreport-chrome-pdf\lib\conversion.js:122:19)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+2019-01-05T09:25:23.094Z - error: Error during processing request at http://localhost:5400/api/report
+2019-01-05T09:26:09.471Z - info: Initializing jsreport@2.3.0 in development mode using configuration file: jsreport.config.json
+2019-01-05T09:26:09.476Z - info: Searching for available extensions in D:\VS_WS\Foundry_Report\
+2019-01-05T09:26:09.506Z - info: Extensions location cache contains up to date information, skipping crawling in D:\VS_WS\Foundry_Report\
+2019-01-05T09:26:09.519Z - info: Found 31 extensions
+2019-01-05T09:26:09.560Z - debug: Writing extension locations cache to C:\Users\MR\AppData\Local\Temp\jsreport\core\locations.json
+2019-01-05T09:26:09.562Z - debug: Discovered 31 extensions
+2019-01-05T09:26:09.624Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-01-05T09:26:09.634Z - debug: Extension authentication is disabled, skipping
+2019-01-05T09:26:09.634Z - info: Using extension cli
+2019-01-05T09:26:09.638Z - info: Using extension debug
+2019-01-05T09:26:09.641Z - info: Using extension express
+2019-01-05T09:26:09.812Z - info: Using extension freeze
+2019-01-05T09:26:09.814Z - info: Using extension handlebars
+2019-01-05T09:26:09.817Z - info: Using extension import-export
+2019-01-05T09:26:09.946Z - info: Using extension jsrender
+2019-01-05T09:26:09.948Z - info: Using extension tags
+2019-01-05T09:26:09.952Z - info: Using extension templates
+2019-01-05T09:26:09.955Z - info: Using extension authorization
+2019-01-05T09:26:09.959Z - debug: Extension authorization was disabled
+2019-01-05T09:26:09.960Z - info: Using extension base
+2019-01-05T09:26:09.962Z - info: Using extension browser-client
+2019-01-05T09:26:09.965Z - info: Using extension child-templates
+2019-01-05T09:26:09.990Z - info: Using extension chrome-pdf
+2019-01-05T09:26:10.081Z - debug: Chrome strategy is dedicated-process
+2019-01-05T09:26:10.081Z - info: Using extension data
+2019-01-05T09:26:10.083Z - info: Using extension fs-store
+2019-01-05T09:26:10.317Z - info: Using extension html-to-xlsx
+2019-01-05T09:26:10.394Z - info: html-to-xlsx detected chrome as available html engine
+2019-01-05T09:26:10.395Z - info: Using extension licensing
+2019-01-05T09:26:10.399Z - info: Using extension pdf-utils
+2019-01-05T09:26:10.401Z - info: Using extension reports
+2019-01-05T09:26:10.406Z - info: Using extension studio
+2019-01-05T09:26:10.425Z - info: Using extension text
+2019-01-05T09:26:10.427Z - info: Using extension version-control
+2019-01-05T09:26:10.501Z - info: Using extension assets
+2019-01-05T09:26:10.512Z - info: Using extension scheduling
+2019-01-05T09:26:10.571Z - info: Using extension scripts
+2019-01-05T09:26:10.576Z - info: Using extension xlsx
+2019-01-05T09:26:10.636Z - info: Using extension public-templates
+2019-01-05T09:26:10.638Z - debug: Extension public-templates was disabled
+2019-01-05T09:26:10.638Z - info: Using extension resources
+2019-01-05T09:26:10.640Z - info: Using extension sample-template
+2019-01-05T09:26:10.647Z - info: fs store is persisting using fs
+2019-01-05T09:26:10.647Z - info: fs store is synchronizing using fs
+2019-01-05T09:26:10.651Z - info: fs store is loading data
+2019-01-05T09:26:10.677Z - debug: fs store sync is configured to use polling for files watcher
+2019-01-05T09:26:10.764Z - info: fs store is initialized successfully
+2019-01-05T09:26:10.795Z - info: Creating default express app.
+2019-01-05T09:26:10.819Z - info: jsreport server successfully started on http port: 5400
+2019-01-05T09:26:10.821Z - info: fs store emits sockets to synchronize underlying changes with studio
+2019-01-05T09:26:10.840Z - info: Verifying license key free
+2019-01-05T09:26:11.768Z - info: Using enterprise trial license
+2019-01-05T09:26:11.785Z - info: reporter initialized
+2019-01-05T09:26:25.756Z - debug: OData query on templates
+2019-01-05T09:26:25.763Z - debug: OData query on folders
+2019-01-05T09:26:25.765Z - debug: OData query on tags
+2019-01-05T09:26:25.766Z - debug: OData query on data
+2019-01-05T09:26:25.768Z - debug: OData query on assets
+2019-01-05T09:26:25.769Z - debug: OData query on scripts
+2019-01-05T09:26:25.774Z - debug: OData query on xlsxTemplates
+2019-01-05T09:26:25.787Z - debug: OData query on schedules
+2019-01-05T09:26:25.798Z - debug: OData query on settings
+2019-01-05T09:26:26.045Z - debug: OData query on templates
+2019-01-05T09:26:26.066Z - debug: OData query on settings
+2019-01-05T09:26:29.240Z - debug: OData query on templates
+2019-01-05T09:26:31.417Z - info: Starting rendering request 1 (user: null)
+2019-01-05T09:26:31.420Z - info: Rendering template { name: Product_list, recipe: chrome-pdf, engine: handlebars, preview: true }
+2019-01-05T09:26:31.422Z - debug: Data item not defined for this template.
+2019-01-05T09:26:31.423Z - debug: Resources not defined for this template.
+2019-01-05T09:26:31.427Z - debug: Executing script get_productlist_script
+2019-01-05T09:26:32.925Z - debug: Base url not specified, skipping its injection.
+2019-01-05T09:26:32.933Z - debug: Rendering engine handlebars
+2019-01-05T09:26:33.455Z - debug: Compiled template not found in the cache, compiling
+2019-01-05T09:26:33.459Z - debug: Executing recipe chrome-pdf
+2019-01-05T09:26:34.265Z - debug: Converting with chrome HeadlessChrome/72.0.3617.0 using dedicated-process strategy
+2019-01-05T09:26:40.712Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2019-01-05T09:26:41.277Z - debug: Skipping storing report.
+2019-01-05T09:26:41.282Z - info: Rendering request 1 finished in 9866 ms
+2019-01-05T09:27:31.424Z - debug: OData query on templates
+2019-01-05T09:27:33.609Z - info: Starting rendering request 2 (user: null)
+2019-01-05T09:27:33.611Z - info: Rendering template { name: Xlsx, recipe: xlsx, engine: handlebars, preview: true }
+2019-01-05T09:27:33.612Z - debug: Data item not defined for this template.
+2019-01-05T09:27:33.612Z - debug: Resources not defined for this template.
+2019-01-05T09:27:33.645Z - debug: Executing script get_mongodb_script
+2019-01-05T09:27:34.890Z - debug: Base url not specified, skipping its injection.
+2019-01-05T09:27:34.894Z - debug: Rendering engine handlebars
+2019-01-05T09:27:35.315Z - debug: Compiled template not found in the cache, compiling
+2019-01-05T09:27:35.319Z - debug: Executing recipe xlsx
+2019-01-05T09:27:35.320Z - debug: Parsing xlsx content
+2019-01-05T09:27:35.328Z - debug: Zipping prepared xml files into C:\Users\MR\AppData\Local\Temp\jsreport\autocleanup\22b65be0-10cc-11e9-b3e3-07bfa0945382.xlsx
+2019-01-05T09:27:35.387Z - debug: Successfully zipped now.
+2019-01-05T09:27:36.257Z - debug: Skipping storing report.
+2019-01-05T09:27:36.262Z - info: Rendering request 2 finished in 2654 ms
+2019-01-05T09:28:18.368Z - info: Initializing jsreport@2.3.0 in development mode using configuration file: jsreport.config.json
+2019-01-05T09:28:18.371Z - info: Searching for available extensions in D:\VS_WS\Foundry_Report\
+2019-01-05T09:28:18.397Z - info: Extensions location cache contains up to date information, skipping crawling in D:\VS_WS\Foundry_Report\
+2019-01-05T09:28:18.415Z - info: Found 31 extensions
+2019-01-05T09:28:18.441Z - debug: Writing extension locations cache to C:\Users\MR\AppData\Local\Temp\jsreport\core\locations.json
+2019-01-05T09:28:18.442Z - debug: Discovered 31 extensions
+2019-01-05T09:28:18.512Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2019-01-05T09:28:18.525Z - debug: Extension authentication is disabled, skipping
+2019-01-05T09:28:18.525Z - info: Using extension cli
+2019-01-05T09:28:18.532Z - info: Using extension debug
+2019-01-05T09:28:18.535Z - info: Using extension express
+2019-01-05T09:28:18.746Z - info: Using extension freeze
+2019-01-05T09:28:18.751Z - info: Using extension handlebars
+2019-01-05T09:28:18.753Z - info: Using extension import-export
+2019-01-05T09:28:18.941Z - info: Using extension jsrender
+2019-01-05T09:28:18.942Z - info: Using extension tags
+2019-01-05T09:28:18.945Z - info: Using extension templates
+2019-01-05T09:28:18.949Z - info: Using extension authorization
+2019-01-05T09:28:18.952Z - debug: Extension authorization was disabled
+2019-01-05T09:28:18.952Z - info: Using extension base
+2019-01-05T09:28:18.954Z - info: Using extension browser-client
+2019-01-05T09:28:18.957Z - info: Using extension child-templates
+2019-01-05T09:28:18.963Z - info: Using extension chrome-pdf
+2019-01-05T09:28:19.046Z - debug: Chrome strategy is dedicated-process
+2019-01-05T09:28:19.047Z - info: Using extension data
+2019-01-05T09:28:19.049Z - info: Using extension fs-store
+2019-01-05T09:28:19.303Z - info: Using extension html-to-xlsx
+2019-01-05T09:28:19.384Z - info: html-to-xlsx detected chrome as available html engine
+2019-01-05T09:28:19.384Z - info: Using extension licensing
+2019-01-05T09:28:19.388Z - info: Using extension pdf-utils
+2019-01-05T09:28:19.390Z - info: Using extension reports
+2019-01-05T09:28:19.395Z - info: Using extension studio
+2019-01-05T09:28:19.414Z - info: Using extension text
+2019-01-05T09:28:19.415Z - info: Using extension version-control
+2019-01-05T09:28:19.492Z - info: Using extension assets
+2019-01-05T09:28:19.504Z - info: Using extension scheduling
+2019-01-05T09:28:19.622Z - info: Using extension scripts
+2019-01-05T09:28:19.627Z - info: Using extension xlsx
+2019-01-05T09:28:19.684Z - info: Using extension public-templates
+2019-01-05T09:28:19.686Z - debug: Extension public-templates was disabled
+2019-01-05T09:28:19.686Z - info: Using extension resources
+2019-01-05T09:28:19.687Z - info: Using extension sample-template
+2019-01-05T09:28:19.694Z - info: fs store is persisting using fs
+2019-01-05T09:28:19.694Z - info: fs store is synchronizing using fs
+2019-01-05T09:28:19.698Z - info: fs store is loading data
+2019-01-05T09:28:19.722Z - debug: fs store sync is configured to use polling for files watcher
+2019-01-05T09:28:19.799Z - info: fs store is initialized successfully
+2019-01-05T09:28:19.831Z - info: Creating default express app.
+2019-01-05T09:28:19.854Z - info: jsreport server successfully started on http port: 5400
+2019-01-05T09:28:19.855Z - info: fs store emits sockets to synchronize underlying changes with studio
+2019-01-05T09:28:19.880Z - info: Verifying license key free
+2019-01-05T09:28:20.610Z - info: Using enterprise trial license
+2019-01-05T09:28:20.641Z - info: reporter initialized
+2019-01-05T09:28:24.317Z - info: Starting rendering request 1 (user: null)
+2019-01-05T09:28:24.320Z - info: Rendering template { name: Product_list, recipe: chrome-pdf, engine: handlebars, preview: true }
+2019-01-05T09:28:24.321Z - debug: Data item not defined for this template.
+2019-01-05T09:28:24.322Z - debug: Resources not defined for this template.
+2019-01-05T09:28:24.325Z - debug: Executing script get_productlist_script
+2019-01-05T09:28:25.552Z - debug: Base url not specified, skipping its injection.
+2019-01-05T09:28:25.565Z - debug: Rendering engine handlebars
+2019-01-05T09:28:25.863Z - debug: Compiled template not found in the cache, compiling
+2019-01-05T09:28:25.865Z - debug: Executing recipe chrome-pdf
+2019-01-05T09:28:28.023Z - debug: Converting with chrome HeadlessChrome/72.0.3617.0 using dedicated-process strategy
+2019-01-05T09:28:30.984Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2019-01-05T09:28:31.636Z - debug: Skipping storing report.
+2019-01-05T09:28:31.642Z - info: Rendering request 1 finished in 7326 ms
+2019-01-05T09:28:45.455Z - info: Starting rendering request 2 (user: null)
+2019-01-05T09:28:45.457Z - info: Rendering template { name: Xlsx, recipe: xlsx, engine: handlebars, preview: false }
+2019-01-05T09:28:45.459Z - debug: Data item not defined for this template.
+2019-01-05T09:28:45.459Z - debug: Resources not defined for this template.
+2019-01-05T09:28:45.464Z - debug: Executing script get_mongodb_script
+2019-01-05T09:28:46.997Z - debug: Base url not specified, skipping its injection.
+2019-01-05T09:28:47.003Z - debug: Rendering engine handlebars
+2019-01-05T09:28:47.359Z - debug: Compiled template not found in the cache, compiling
+2019-01-05T09:28:47.361Z - debug: Executing recipe xlsx
+2019-01-05T09:28:47.361Z - debug: Parsing xlsx content
+2019-01-05T09:28:47.368Z - debug: Zipping prepared xml files into C:\Users\MR\AppData\Local\Temp\jsreport\autocleanup\4da6f170-10cc-11e9-9f0d-5d179e08f9bd.xlsx
+2019-01-05T09:28:47.428Z - debug: Successfully zipped now.
+2019-01-05T09:28:47.430Z - debug: Skipping storing report.
+2019-01-05T09:28:47.435Z - info: Rendering request 2 finished in 1980 ms

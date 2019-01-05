@@ -1,0 +1,22 @@
+{
+  "name": "foundry_report",
+  "version": "1.0.0",
+  "description": "foundry report generetion in pdf & excel",
+  "main": "index.js",
+  "scripts": {
+    "start":"concurrently - kill-others \" nodemon index.js \" \"node server.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vp",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "jsreport": "^2.3.0",
+    "mongodb": "^3.1.10",
+    "nodemon": "^1.18.9",
+    "request": "^2.88.0"
+  }
+}

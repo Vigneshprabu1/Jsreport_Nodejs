@@ -1,0 +1,25 @@
+2019-01-04T09:44:20.646Z - error: Error when performing remote sync Error: Error when trying to parse file at "samples\MongoDb\Product_list\config.json", check that file constains valid JSON. Unexpected end of JSON input
+    at parseFiles (D:\VS_WS\Node_WS\Foundry\node_modules\jsreport-fs-store\lib\persistence.js:74:18)
+2019-01-04T09:46:21.294Z - error: Error when processing OData DELETE: /odata/templates(IR6Cn7YvwzDx8lww) Error: Can not find parent folder for entity "Product_list" (entitySet: templates)
+    at getDirectoryPath (D:\VS_WS\Node_WS\Foundry\node_modules\jsreport-fs-store\lib\persistence.js:18:13)
+    at remove (D:\VS_WS\Node_WS\Foundry\node_modules\jsreport-fs-store\lib\persistence.js:223:40)
+    at lock (D:\VS_WS\Node_WS\Foundry\node_modules\jsreport-fs-store\lib\persistence.js:296:46)
+    at lock (D:\VS_WS\Node_WS\Foundry\node_modules\jsreport-fs-store\lib\persistence.js:287:18)
+2019-01-04T09:46:34.610Z - error: Error when performing remote sync Error: EPERM: operation not permitted, stat 'D:\VS_WS\Node_WS\Foundry\data\samples\MongoDb\demo'
+2019-01-04T09:46:34.626Z - error: Error when performing remote sync Error: EPERM: operation not permitted, stat 'D:\VS_WS\Node_WS\Foundry\data\samples\MongoDb\demo'
+2019-01-04T09:46:34.641Z - error: Error when performing remote sync Error: EPERM: operation not permitted, stat 'D:\VS_WS\Node_WS\Foundry\data\samples\MongoDb\demo'
+2019-01-04T09:46:34.656Z - error: Error when performing remote sync Error: EPERM: operation not permitted, stat 'D:\VS_WS\Node_WS\Foundry\data\samples\MongoDb\demo'
+2019-01-04T09:46:34.674Z - error: Error when performing remote sync Error: EPERM: operation not permitted, stat 'D:\VS_WS\Node_WS\Foundry\data\samples\MongoDb\demo'
+2019-01-04T09:46:34.687Z - error: Error when performing remote sync Error: EPERM: operation not permitted, stat 'D:\VS_WS\Node_WS\Foundry\data\samples\MongoDb\demo'
+2019-01-04T09:46:34.702Z - error: Error when performing remote sync Error: EPERM: operation not permitted, stat 'D:\VS_WS\Node_WS\Foundry\data\samples\MongoDb\demo'
+2019-01-04T09:54:38.693Z - error: Error when processing OData PATCH: /odata/folders(JzS23P83cNF8JCKj) Error: ENOENT: no such file or directory, scandir 'D:\VS_WS\Node_WS\Foundry\data\samples\MongoDB'
+2019-01-05T09:25:23.083Z - error: Error when processing render request Timeout Error: pdf generation not completed after 30000ms Error: Timeout Error: pdf generation not completed after 30000ms
+    at Timeout.setTimeout [as _onTimeout] (D:\VS_WS\Foundry_Report\node_modules\jsreport-chrome-pdf\lib\conversion.js:122:19)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+2019-01-05T09:25:23.088Z - error: Error during processing request at http://localhost:5400/api/report
+2019-01-05T09:25:23.094Z - error: Error when processing render request Timeout Error: pdf generation not completed after 30000ms Error: Timeout Error: pdf generation not completed after 30000ms
+    at Timeout.setTimeout [as _onTimeout] (D:\VS_WS\Foundry_Report\node_modules\jsreport-chrome-pdf\lib\conversion.js:122:19)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+2019-01-05T09:25:23.094Z - error: Error during processing request at http://localhost:5400/api/report
